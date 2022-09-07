@@ -82,7 +82,7 @@ export default function BlanchardGenericLPNew() {
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="phone_number" id="phone_number" minlength="10" maxlength="10" className="form-control" placeholder="Phone No.*" required/>
+                              <input type="text" name="phone_number" id="phone_number" pattern="[0-9]*" minlength="10" maxlength="10" className="form-control" placeholder="Phone No.*" required/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
@@ -94,7 +94,7 @@ export default function BlanchardGenericLPNew() {
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="text" name="designation" id="designation" className="form-control" data-error="Please Enter Designation" placeholder="Designation"/>
+                              <input type="text" name="designation" id="designation" className="form-control" data-error="Please Enter Designation" placeholder="Designation" pattern="[a-zA-Z -]*$" title="Only alphabets are allowed" required/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>

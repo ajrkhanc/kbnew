@@ -120,7 +120,7 @@ export default function VirtualPublicWorkshop() {
                      </div>
                      <div className="col-lg-6">
                         <div className="form-group">
-                           <input type="text" name="leadsquared_JobTitle" id="leadsquared_JobTitle" className="form-control" placeholder="Designation" />
+                           <input type="text" name="leadsquared_JobTitle" id="leadsquared_JobTitle" className="form-control" placeholder="Designation" pattern="[a-zA-Z -]*$" title="Only alphabets are allowed" required/>
                         </div>
                      </div>
                      <div className="col-lg-6">
