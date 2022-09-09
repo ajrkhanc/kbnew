@@ -79,6 +79,45 @@ export default function VirtualPublicWorkshop() {
                         </div>
                      </div>
                   </div>
+
+                  <div className="col-sm-4">
+                     <div className="choose-card">
+                        <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
+                        <h3>Self Leadership - Virtual</h3>
+                        <p>October 11, 2022</p>
+                        <div className='row eventsbottomarea2 text-center'>
+                           <div className='col-sm-12'>
+                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div className="col-sm-4">
+                     <div className="choose-card">
+                        <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
+                        <h3>Team Leadership - Virtual</h3>
+                        <p>October 18, 2022</p>
+                        <div className='row eventsbottomarea2 text-center'>
+                           <div className='col-sm-12'>
+                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div className="col-sm-4">
+                     <div className="choose-card">
+                        <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
+                        <h3>Building Trust - Virtual</h3>
+                        <p>November 9, 2022</p>
+                        <div className='row eventsbottomarea2 text-center'>
+                           <div className='col-sm-12'>
+                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                   
                </div>
             </div>
@@ -134,6 +173,9 @@ export default function VirtualPublicWorkshop() {
                            <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                               <option value="">---</option>
                               <option value="Blanchard Management Essentials - Virtual September 13th, 2022">Blanchard Management Essentials - Virtual September 13th, 2022</option>
+                              <option value="Self Leadership - Virtual October 11, 2022">Self Leadership - Virtual October 11, 2022</option>
+                              <option value="Team Leadership - Virtual	October 18, 2022">Team Leadership - Virtual	October 18, 2022</option>
+                              <option value="Building Trust - Virtual	November 9, 2022">Building Trust - Virtual	November 9, 2022</option>
                            </select>
                         </div>
                      </div>
