@@ -42,12 +42,12 @@ export default function index({posts, cats}) {
                  return(
                     <div className="col-sm-6">
                       <div className="blog-item">
-                      <a href={getpost.posturl}>
+                      <a href={`/blog/${getpost.posturl}`}>
                       <img src={getpost.ImageURL} alt={getpost.ImageAlt}/>
                       </a>
                         <div className="content">
                         <span><i className='bx bx-time'></i>{moment(getpost.ModifiedDate).format('MMMM DD Y')}</span>
-                        <h3><a href={getpost.posturl}>{getpost.Title}</a></h3>                        
+                        <h3><a href={`/blog/${getpost.posturl}`}>{getpost.Title}</a></h3>                        
                         </div>
                       </div>
                     </div>           
@@ -66,7 +66,7 @@ export default function index({posts, cats}) {
              posts.slice(0,5).map((getpost)=>{             
                         return(
                      <article className="item">
-                        <a href={getpost.posturl} className="thumb">
+                        <a href={`/blog/${getpost.posturl}`} className="thumb">
                            <span className="full-image cover bg1" role="img">
                            <img src={getpost.ImageURL} alt={getpost.ImageAlt}/>
                            </span>
@@ -74,7 +74,7 @@ export default function index({posts, cats}) {
                         <div className="info">
                            <p><i className='bx bx-time'></i>{moment(getpost.ModifiedDate).format('MMMM DD Y')}</p>
                            <h4 className="title-text">
-                           <a href={getpost.posturl}>{getpost.Title}</a>
+                           <a href={`/blog/${getpost.posturl}`}>{getpost.Title}</a>
                            </h4>
                         </div>
                      </article>

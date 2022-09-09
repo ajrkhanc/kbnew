@@ -129,7 +129,7 @@ const singleblog = ({ posts, posts5, cats, postfeedback }) => {
                      posts5.slice(0,5).map((getpost)=>{             
                                  return(
                               <article className="item">
-                                 <a href={getpost.posturl} className="thumb">
+                                 <a href={`/blog/${getpost.posturl}`} className="thumb">
                                     <span className="full-image cover bg1" role="img">
                                     <img src={getpost.ImageURL} alt={getpost.ImageAlt}/>
                                     </span>
@@ -137,7 +137,7 @@ const singleblog = ({ posts, posts5, cats, postfeedback }) => {
                                  <div className="info">
                                     <p><i className='bx bx-time'></i>{moment(getpost.ModifiedDate).format('MMMM DD Y')}</p>
                                     <h4 className="title-text">
-                                    <a href={getpost.posturl}>{getpost.Title}</a>
+                                    <a href={`/blog/${getpost.posturl}`}>{getpost.Title}</a>
                                     </h4>
                                  </div>
                               </article>
