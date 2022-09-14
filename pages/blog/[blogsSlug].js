@@ -163,7 +163,7 @@ const singleblog = ({ posts, posts5, cats, postfeedback }) => {
                   </div> 
                </div>
                
-               <div className="side-bar-widget">
+               <div className="side-bar-widget d-none">
                   <h3 className="title">Upcoming Workshops</h3>
                  <div className="widget-popular-post">
                      
