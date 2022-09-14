@@ -64,21 +64,6 @@ export default function VirtualPublicWorkshop() {
             <p className='text-center pb-25'>Take advantage of our virtual trainings.</p>
             <div className="what-did-left-content">
                <div className="row row-eq-height eventsandworkshopbox">
-                   
-               
-                  
-                  <div className="col-sm-4">
-                     <div className="choose-card">
-                        <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>Blanchard Management Essentials - Virtual</h3>
-                        <p>September 13th, 2022</p>
-                        <div className='row eventsbottomarea2 text-center'>
-                           <div className='col-sm-12'>
-                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
 
                   <div className="col-sm-4">
                      <div className="choose-card">
@@ -171,8 +156,7 @@ export default function VirtualPublicWorkshop() {
                         <div className="form-group">
                            <label>Pick up any Slot*</label>
                            <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
-                              <option value="">---</option>
-                              <option value="Blanchard Management Essentials - Virtual September 13th, 2022">Blanchard Management Essentials - Virtual September 13th, 2022</option>
+                              <option value="">---</option>                              
                               <option value="Self Leadership - Virtual October 11, 2022">Self Leadership - Virtual October 11, 2022</option>
                               <option value="Team Leadership - Virtual	October 18, 2022">Team Leadership - Virtual	October 18, 2022</option>
                               <option value="Building Trust - Virtual	November 9, 2022">Building Trust - Virtual	November 9, 2022</option>
