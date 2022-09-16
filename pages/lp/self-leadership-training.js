@@ -90,7 +90,7 @@ export default function BlanchardGenericLPNew() {
       xhttp.onload = function () {
          // console.log(this.responseText.status);
       }
-      xhttp.open("Post", 'https://bmelectrician.com/blanchard/wp-json/contact-form-7/v1/contact-forms/28472/feedback');
+      xhttp.open("Post", 'https://ajrkhan.xyz/blanchardinternational/wp-json/contact-form-7/v1/contact-forms/83/feedback');
       xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
       xhttp.onreadystatechange = function () {
          if (xhttp.readyState == 4) {
@@ -118,8 +118,6 @@ export default function BlanchardGenericLPNew() {
          + "&leadsquared-Mobile=" + event.target.phone_number.value
          + "&leadsquared-Company=" + event.target.companyName.value
          + "&leadsquared-JobTitle=" + event.target.designation.value         
-         + "&leadsquared-mx_Showed_Interest_in=" + event.target.interest_in.value
-         + "&referredby=" + event.target.referredby.value
          + "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value)
 
    }
@@ -204,17 +202,8 @@ if (t < 0) {
                               <input type="text" name="designation" id="designation" className="form-control" data-error="Please Enter Designation" placeholder="Designation" pattern="[a-zA-Z -]*$" title="Only alphabets are allowed" required/>
                               <div className="help-block with-errors"></div>
                            </div>
-                        </div>
-                                                
-                        <div className="col-lg-6 d-none">
-                           <div className="form-group">
-                              <label>Referred By</label>                              
-                              <select className="form-control" name="referredby">                                 
-                                 <option value="paid">Paid</option>
-                              </select>
-                              <div className="help-block with-errors"></div>
-                           </div>
-                        </div> 
+                        </div>                                               
+                        
                         
                         <div className="col-lg-6 d-none">
                            <div className="form-group">
