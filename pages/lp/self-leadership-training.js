@@ -309,7 +309,7 @@ if (t < 0) {
                            </div>
 
                             <div className="pt-20 pb30">                                
-                                <a href="#book-now" className="default-btn-two"> Book Now<i className="bx bx-right-arrow-alt"></i></a>
+                                <a href="#book-now" className="default-btn btn-bg1 border-radius-5"> Book Now</a>
                             </div>
                         </div>
                    </div>        
@@ -388,6 +388,18 @@ if (t < 0) {
                         </div>
                         <h3 class="title">Simpplr</h3>                        
                     </div>
+
+                    <div class="testimonial">
+                        <div class="testimonial-content">
+                            <div class="testimonial-icon">                                
+                                <img src="/assets/img/inverted-commas.png" alt="Images"/>
+                            </div>
+                            <p class="description">
+                            “Participants found the Self Leadership workshop very interactive, informative and engaging. They liked the facilitator’s way of presenting the session by implementing various engaging activities.”
+                            </p>
+                        </div>
+                        <h3 class="title">OPTUM </h3>                        
+                    </div>
  
                     <div class="testimonial">
                         <div class="testimonial-content">
@@ -415,18 +427,7 @@ if (t < 0) {
                         
                     </div>
 
-                    <div class="testimonial">
-                        <div class="testimonial-content">
-                            <div class="testimonial-icon">                                
-                                <img src="/assets/img/inverted-commas.png" alt="Images"/>
-                            </div>
-                            <p class="description">
-                            “Participants found the Self Leadership workshop very interactive, informative and engaging. They liked the facilitator’s way of presenting the session by implementing various engaging activities.”
-                            </p>
-                        </div>
-                        <h3 class="title">OPTUM </h3>
-                        
-                    </div>
+                    
                     </Slider>
                 </div>
             </div>
@@ -439,7 +440,7 @@ if (t < 0) {
          <div className="container">
             <div className="row">              
                <div className="col-md-12">
-               <h2 className="titleh2 text-center">Google Review</h2>
+               <h2 className="titleh2 text-center">Google Reviews</h2>
                </div>
 
               
@@ -462,17 +463,7 @@ if (t < 0) {
                   </div>
                </div>
 
-               <div className="col-md-4">
-                  <div className="googlereviewbox">
-                     <img src="/assets/img/re4.jpg" alt="Images"/>
-                  </div>
-               </div>
-
-               <div className="col-md-4">
-                  <div className="googlereviewbox">
-                     <img src="/assets/img/re4.jpg" alt="Images"/>
-                  </div>
-               </div>
+            
 
             </div>
          </div>
