@@ -283,6 +283,7 @@ if (t < 0) {
                             
                             <h4 className='landingpagesbannerh4 textsecondcolor textccx'>Self Leadership - Virtual Workshop</h4>
                             <h5 className="sech5">October 11, 2022</h5>
+                            <h5 className="sech5">Time: 9:00 AM to 5:00 PM</h5>
                              <div className="daysca">
 
                              <div className="ecdays smf">
