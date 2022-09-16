@@ -275,7 +275,7 @@ if (t < 0) {
                     <div className="col-md-6">
                         <div className="text-center borderccc">
                             {/* <img className='ptt50' src="/assets/img/home2-pic1.jpg" alt="Images"/> */}
-                            <iframe width="100%" height="350" src="https://www.youtube.com/embed/f85xnjMrSVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="390" src="https://www.youtube.com/embed/f85xnjMrSVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                    <div className='col-md-6 clanderbg'>
