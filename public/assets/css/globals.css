@@ -23,6 +23,10 @@
   background-image: url(../img/diversity-people-seminar-learning.jpg);
 }
 
+.genericnewlps {
+  background-image: url(../img/eventvideo.jpg) !important;
+}
+
 .genericnewlp::before {
   content: "";
   position: absolute;
@@ -97,7 +101,7 @@
 
 .bbdr {
   border-right: 1px solid #dddddd45;
-  height: 160px;
+  min-height: 160px;
 }
 
 .point6 li{
@@ -139,7 +143,7 @@
 .ptt50{ padding-top: 50px;}
 
 .genericnewlpfixed {
-  background-image: url(../img/diversity-people-seminar-learning.jpg);
+  background-image: url(../img/eventvideo.jpg);
   background-repeat: no-repeat;
   background-size: cover;  
   background-attachment: fixed;
@@ -265,3 +269,223 @@
 
 .texttras{ text-transform: lowercase;}
 .ulfright{ float: right;}
+
+.bbdr h2{
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 18px;
+}
+
+.bbdrh{
+  color: #000000;
+  text-align: center;
+  font-weight: 600;
+  font-size: 29px;
+  padding-top: 39px;
+}
+
+.topiconc{
+  width: 72px !important;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 22px !important;
+  padding: 7px;
+}
+
+.ccbg{
+  background: linear-gradient( 48deg,#8bc34a 0%,#0a4d6d 100%);
+  padding: 15px 0;
+}
+
+.formtbg{
+  padding: 5px;
+  margin-top: 100px;
+  background: linear-gradient(to right, rgb(255 255 255) 0%,rgb(123 175 212) 36%,rgba(0,0,0,0) 100%) !important;
+  padding-bottom: 60px;
+}
+
+.planbox1{ border: none !important;}
+.planbox1 h3 {
+  padding-top: 41px !important;
+}
+
+.planbox1{
+  padding: 15px;
+}
+
+.eventvideo {
+  background-image: url(../img/eventvideo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;  
+  background-attachment: fixed;
+}
+
+.daysca{
+  display: inline-flex;
+  padding-bottom: 10px;
+}
+.smf{ 
+  padding: 20px;
+  border: 5px solid #97d700;
+  border-radius: 50%;
+  min-height: 120px;
+  min-width: 120px;
+  margin: 10px;
+}
+  .daysca .smalltext{ color: #fff;}
+
+  .days{
+    color: #97d700;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .ehours{
+    border: 5px solid #7bafd4;
+  }
+
+  .hours{
+    color: #7bafd4;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .eseconds{
+    border: 5px solid #7bafd4;
+  }
+
+  .seconds{
+    color: #7bafd4;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .minutes{
+    color: #97d700;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .forpp{ padding:50px 0px;}
+
+  .textccx{
+    color: #ffffff;
+    font-size: 28px;
+    padding-bottom: 1px;
+  }
+
+  .sech5{
+    color: #7bafd4;
+    font-weight: 600;
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+
+  .clanderbg{
+    background: #7bafd426;
+  }
+
+  .pb30{
+    padding-bottom: 30px;
+  }
+
+
+  .demo{ background: #f8f8f8;padding-bottom: 50px; padding-top: 40px;}
+.testimonial{
+    padding: 0px 17px ;
+}
+.testimonial .testimonial-content{
+    padding: 35px 25px 35px 50px;
+    margin-bottom: 35px;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    position: relative;
+}
+.testimonial .testimonial-content:after{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    bottom: -10px;
+    left: 22px;
+    transform: rotate(45deg);
+}
+.testimonial-content .testimonial-icon{
+    width: 50px;
+    height: 45px;
+    background: #97d700;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+.testimonial-content .testimonial-icon:before{
+    content: "";
+    border-bottom: 16px solid #97d700;
+    border-left: 18px solid transparent;
+    position: absolute;
+    top: -16px;
+    left: 1px;
+}
+.testimonial .description{
+    font-size: 15px;
+    font-style: italic;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
+}
+.testimonial .title{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #ff4242;
+}
+.owl-theme .owl-controls{
+    margin-top: 20px;
+}
+.owl-theme .owl-controls .owl-page span{
+    background: #ccc;
+    opacity: 1;
+    transition: all 0.4s ease 0s;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    background: #ff4242;
+}
+
+.testimonial-icon img{
+  width: 32px;
+  margin: auto;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0px;
+  border: none;
+  line-height: 32px;
+  padding-top: 6px;
+}
+
+.pa30c{padding-bottom: 30px;}
+
+.googlereviewbox{
+  border: 2px solid #c5d5e1;
+  margin: 13px 0px;
+}
+
+@media (max-width:770px){
+  .daysca {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+}
