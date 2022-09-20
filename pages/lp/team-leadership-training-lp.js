@@ -90,7 +90,7 @@ export default function BlanchardGenericLPNew() {
       xhttp.onload = function () {
          // console.log(this.responseText.status);
       }
-      xhttp.open("Post", 'https://ajrkhan.xyz/blanchardinternational/wp-json/contact-form-7/v1/contact-forms/83/feedback');
+      xhttp.open("Post", 'https://ajrkhan.xyz/blanchardinternational/wp-json/contact-form-7/v1/contact-forms/85/feedback');
       xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
       xhttp.onreadystatechange = function () {
          if (xhttp.readyState == 4) {
@@ -124,14 +124,14 @@ export default function BlanchardGenericLPNew() {
     return (
         <>
         <Head>
-            <title>Leadership Training in India | Leadership Training Programs - Blanchard</title>
-            <meta name="description" content="Lead the winning path with Leadership training programs in India. Acquiring Leadership training by the experts help in the development of the individuals." />            
+            <title>Team Leadership Training for Effective Team Performance</title>
+            <meta name="description" content="" />
          </Head>
 
          <script
             dangerouslySetInnerHTML={{
               __html: `
-              var deadline = new Date("oct 11, 2022 09:00:00").getTime();
+              var deadline = new Date("oct 18, 2022 09:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -157,13 +157,14 @@ if (t < 0) {
             }}
           />
          
-         <div className="inner-banner genericnewlp genericnewlps" id="book-now">
+         <div className="inner-banner genericnewlp genericnewlps pading0120" id="book-now">
             <div className="container">
                 <div className='row'>
                    <div className='col-md-7'>
-                        <div className="inner-title text-left formtbg">
-                            <h3>Self-Leadership Training to Increase the Employee Potential</h3>
-                            <h4 className='landingpagesbannerh4 landingpagesbannerh4cc'><span>Avail the Seat!</span></h4>
+                        <div className="inner-title text-center formtbg lpnewbannerp">                           
+                            <img class="img-responsive maxw280" src="/assets/img/kb-award.png"/>
+                            <h3>Team Leadership Training for Effective Team Performance</h3>
+                            <h4 className='landingpagesbannerh4 landingpagesbannerh4cc'><span>Enroll in Excellence – Limited Seats Left!</span></h4>
                         </div>
                    </div>
         <div className='col-md-5'>
@@ -232,34 +233,44 @@ if (t < 0) {
         <div className="what-did-area pt-45 pb-40 ccbg">
             <div className="container">
                 <div className="row align-items-center">
-                    {/* <div className="col-md-12">
-                        <h3 className="bbdrh">The Acumen of a Self-Leader</h3>
+                    <div className="col-md-12">
+                        <h3 className="bbdrh">Building High Performing Teams Culminates In</h3>
                     </div>
-                    <div className="clearfix"></div> */}
+                    <div className="clearfix"></div>
+                    {/* <div className="col bbdr">                       
+                        <div class="business-box">
+                        <h5 className="bbdrh">Building High Performing Teams Culminates In</h5>
+                        </div>
+                    </div> */}
                     <div className="col bbdr">                       
                         <div class="business-box">
-                        <h5 className="bbdrh">The Acumen of a Self-Leader</h5>
+                            
+                            <h2>Solving complex organizational problems</h2>                            
                         </div>
                     </div>
                     <div className="col bbdr">                       
                         <div class="business-box">
-                            <img class="img-responsive topiconc" src="/assets/img/target.png"/>
-                            <h2>Goal Setting</h2>
-                            <h3>Outlining what needs to be done and when</h3>
+                            
+                            <h2>Faster Execution </h2>
+                            
                         </div>
                     </div>
                     <div className="col bbdr">                       
                         <div class="business-box">
-                            <img class="img-responsive topiconc" src="/assets/img/puzzle.png"/>
-                            <h2>Diagnosing </h2>
-                            <h3>Assess your abilities and commitment to specific goals</h3>
+                            
+                            <h2>Better Decision Making</h2>                            
                         </div>
                     </div>
+
                     <div className="col bbdr">                       
                         <div class="business-box">
-                            <img class="img-responsive topiconc" src="/assets/img/diagnose.png"/>
-                            <h2>Matching</h2>
-                            <h3>Get the leadership style that gives you your need</h3>
+                            
+                            <h2>Creativity Enhancement</h2>                            
+                        </div>
+                    </div><div className="col bbdr">                       
+                        <div class="business-box">
+                            
+                            <h2>Produce Consistently Superior Results</h2>                            
                         </div>
                     </div>                    
                                       
@@ -275,14 +286,14 @@ if (t < 0) {
                     <div className="col-md-6">
                         <div className="text-center borderccc">
                             {/* <img className='ptt50' src="/assets/img/home2-pic1.jpg" alt="Images"/> */}
-                            <iframe width="100%" height="390" src="https://www.youtube.com/embed/f85xnjMrSVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="390" src="https://www.youtube.com/embed/o1S21xdX-go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                    <div className='col-md-6 clanderbg'>
                         <div className="inner-title text-center">
                             
-                            <h4 className='landingpagesbannerh4 textsecondcolor textccx'>Self Leadership - Virtual Workshop</h4>
-                            <h5 className="sech5">October 11, 2022</h5>
+                            <h4 className='landingpagesbannerh4 textsecondcolor textccx'>Team Leadership - Virtual Workshop</h4>
+                            <h5 className="sech5">October 18, 2022</h5>
                             <h5 className="sech52">9:00 AM to 5:00 PM</h5>
                              <div className="daysca">
 
@@ -328,36 +339,36 @@ if (t < 0) {
          <div className="container">
             <div className="row align-items-center">
                <div className="col-lg-12">
-			   <h2 className="titleh2 text-center">Result Driven Self-Leadership Training Program</h2>
+			   <h2 className="titleh2 text-center">Result Driven Team Leadership Training Program</h2>
 			 
                   <div className="what-did-left-content planboxpt80">
                      <div className="row row-eq-height height100p">
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
-                              <img src="/assets/img/develop-change-implement-it.png" alt="Images"/>
-                              <h3>HASTENED DEVELOPMENT</h3>
-							  <p>Self-leaders who control their growth - need the direction and support to climb the curve to dominate faster.</p>
+                              <img src="/assets/img/improve.png" alt="Images"/>
+                              <h3>IMPROVED COALITION</h3>
+							  <p>High-performing teams bring together additional skills, strengths, and experience beyond the capabilities of any individual member.</p>
                            </div>
                         </div>
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
-                              <img src="/assets/img/improve-productivity.png" alt="Images"/>
-                              <h3>SIGNIFICANT PERFORMANCE</h3>
-							  <p>Empowered self-leaders are more committed and engaged, work hard and improve performance across the organization.</p>
+                              <img src="/assets/img/badge.png" alt="Images"/>
+                              <h3>ACHIEVE WORTHIER RESULTS</h3>
+							  <p>Effective teams are said to be empowered and accountable. They consistently execute strategy, achieve goals, and deliver exceptional results.</p>
                            </div>
                         </div>
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
-                              <img src="/assets/img/improve-teamwork.png" alt="Images"/>
-                              <h3>PERSONAL ACCOUNTABILITY</h3>
-							  <p>Self-leaders are not accountable; they are solely responsible for achieving goals and successfully implementing the organization's initiatives.</p>
+                              <img src="/assets/img/leverage.png" alt="Images"/>
+                              <h3>LEVERAGE INNOVATION</h3>
+							  <p>Team members work together and share ideas, talents, and perspectives to solve problems and develop innovative solutions creatively</p>
                            </div>
                         </div>
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
-                              <img src="/assets/img/data.png" alt="Images"/>
-                              <h3>ESCALATED INNOVATION</h3>
-							  <p>Competent self-leaders know how to overcome obstacles that limit their ability to resolve issues and develop creative solutions for them.</p>
+                              <img src="/assets/img/diagram.png" alt="Images"/>
+                              <h3>STEADY PERFORMANCE</h3>
+							  <p>Team members who have become part of a cohesive winning team spread the skills and benefits of high performance throughout the organization.</p>
                            </div>
                         </div>
                      </div>

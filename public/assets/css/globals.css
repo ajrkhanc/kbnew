@@ -495,3 +495,12 @@
     padding-bottom: 10px;
 }
 }
+
+.lpnewbannerp{
+  padding: 5px !important;
+  margin-top: 15px !important;
+  background: #7bafd461 !important;
+}
+.lpnewbannerp h3{ color: #fff !important;}
+.pading0120{ padding: 20px 0px;}
+.maxw280{    max-width: 280px;}
