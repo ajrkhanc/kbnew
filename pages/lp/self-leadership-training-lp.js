@@ -124,8 +124,8 @@ export default function BlanchardGenericLPNew() {
     return (
         <>
         <Head>
-            <title>Leadership Training in India | Leadership Training Programs - Blanchard</title>
-            <meta name="description" content="Lead the winning path with Leadership training programs in India. Acquiring Leadership training by the experts help in the development of the individuals." />            
+            <title>Self-Leadership Training to Increase the Employee Potential</title>
+            <meta name="description" content="" />            
          </Head>
 
          <script
