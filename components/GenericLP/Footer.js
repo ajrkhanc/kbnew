@@ -163,7 +163,7 @@ function Footer() {
                         <ul className="footer-list-two">
                            <li>
                               <i className="flaticon-placeholder"></i>
-                              <div className="title">BYLD Group: 2nd and 3rd Floor, Plot No. 48, Sector - 44, Opp. EPF Regional Office Gurugram, Haryana - 122003</div>
+                              <div className="title">BYLD Group: <br></br>2nd and 3rd Floor, Plot No. 48, Sector - 44, Opp. EPF Regional Office Gurugram, Haryana - 122003</div>
                            </li>
                            <li>
                               <i className="flaticon-call"></i>
