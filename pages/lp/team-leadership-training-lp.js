@@ -244,32 +244,32 @@ if (t < 0) {
                     </div> */}
                     <div className="col bbdr">                       
                         <div class="business-box">
-                            
+                        <img class="img-responsive topiconc" src="/assets/img/problem-solving.png"/>
                             <h2>Solving complex organizational problems</h2>                            
                         </div>
                     </div>
                     <div className="col bbdr">                       
                         <div class="business-box">
-                            
+                        <img class="img-responsive topiconc" src="/assets/img/execution.png"/>
                             <h2>Faster Execution </h2>
                             
                         </div>
                     </div>
                     <div className="col bbdr">                       
                         <div class="business-box">
-                            
+                        <img class="img-responsive topiconc" src="/assets/img/decision-making.png"/>
                             <h2>Better Decision Making</h2>                            
                         </div>
                     </div>
 
                     <div className="col bbdr">                       
                         <div class="business-box">
-                            
+                        <img class="img-responsive topiconc" src="/assets/img/design-thinking.png"/>
                             <h2>Creativity Enhancement</h2>                            
                         </div>
                     </div><div className="col bbdr">                       
                         <div class="business-box">
-                            
+                        <img class="img-responsive topiconc" src="/assets/img/data-analytics.png"/>
                             <h2>Produce Consistently Superior Results</h2>                            
                         </div>
                     </div>                    
@@ -353,7 +353,7 @@ if (t < 0) {
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
                               <img src="/assets/img/badge.png" alt="Images"/>
-                              <h3>ACHIEVE WORTHIER RESULTS</h3>
+                              <h3>ACHIEVE ENHANCED RESULTS</h3>
 							  <p>Effective teams are said to be empowered and accountable. They consistently execute strategy, achieve goals, and deliver exceptional results.</p>
                            </div>
                         </div>

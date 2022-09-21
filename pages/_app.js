@@ -24,6 +24,26 @@ else if (router.pathname.startsWith('/lp/blanchard-generic-test')) {
 
 }
 
+else if (router.pathname.startsWith('/lp/team-leadership-training-lp')) {
+
+  return (
+      <GenericLP>
+          <Component {...pageProps} />
+      </GenericLP>
+  )
+
+}
+
+else if (router.pathname.startsWith('/lp/self-leadership-training-lp')) {
+
+  return (
+      <GenericLP>
+          <Component {...pageProps} />
+      </GenericLP>
+  )
+
+}
+
 else {
   return (
     <Layout>
