@@ -117,7 +117,8 @@ export default function BlanchardGenericLPNew() {
          + "&leadsquared-EmailAddress=" + event.target.email.value
          + "&leadsquared-Mobile=" + event.target.phone_number.value
          + "&leadsquared-Company=" + event.target.companyName.value
-         + "&leadsquared-JobTitle=" + event.target.designation.value         
+         + "&leadsquared-JobTitle=" + event.target.designation.value
+         + "&referredby=" + event.target.referredby.value
          + "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value)
 
    }
@@ -215,6 +216,15 @@ if (t < 0) {
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
+                        <div className="col-lg-6 d-none">
+                           <div className="form-group">                                                  
+                              <select className="form-control" name="referredby">
+                                 <option value="Paid">Paid</option>
+                              </select>
+                              <div className="help-block with-errors"></div>
+                           </div>
+                        </div>
+
                         <div className="col-lg-12 col-md-12">                          
                            <input id="submitbuttonform" className="default-btn btn-bg1 disabled" type="submit" value="Talk to an Expert" />
                            <div id="msgSubmit" className="h3 text-center hidden"></div>

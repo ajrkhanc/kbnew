@@ -117,7 +117,8 @@ export default function BlanchardGenericLPNew() {
          + "&leadsquared-EmailAddress=" + event.target.email.value
          + "&leadsquared-Mobile=" + event.target.phone_number.value
          + "&leadsquared-Company=" + event.target.companyName.value
-         + "&leadsquared-JobTitle=" + event.target.designation.value         
+         + "&leadsquared-JobTitle=" + event.target.designation.value
+         + "&referredby=" + event.target.referredby.value
          + "&leadsquared-mx_Business_Entity=" + event.target.Business_Entity.value)
 
    }
@@ -211,6 +212,14 @@ if (t < 0) {
                               <label>Business Entity*</label>                              
                               <select className="form-control" name="Business_Entity">
                                  <option value="Ken Blanchard Companies">Ken Blanchard Companies</option>
+                              </select>
+                              <div className="help-block with-errors"></div>
+                           </div>
+                        </div>
+                        <div className="col-lg-6 d-none">
+                           <div className="form-group">                                                  
+                              <select className="form-control" name="referredby">
+                                 <option value="Paid">Paid</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
