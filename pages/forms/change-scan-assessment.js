@@ -2,7 +2,15 @@ import Link from "next/link"
 import Head from "next/head"
 
 export default function EdgeManagerAssessment() {
+
+   //   document.contactForm.onclick = function(){
+   //       var radVal = document.contactForm.qq1.value;
+   //       result.innerHTML = 'You selected: '+radVal;
+   //   }
+     
    const registerUser = async event => {
+      
+      
       event.preventDefault()
 
       document.getElementById("submitbuttonform").value = "Submitting form...."
@@ -102,7 +110,7 @@ export default function EdgeManagerAssessment() {
                             <p>IDENTIFY the change initiative, then READ each statement below. For statements 1 through 24, select the response that indicates your level of agreement. For statement 25, select the phrase that best describes your attitude about this change.</p>
                             <p><b>Before we begin, please share the following details –</b></p>
                             
-                           <form id="contactForm" onSubmit={registerUser}>
+                           <form id="contactForm" name="contactForm" onSubmit={registerUser}>
                               <div className="row">
                         
 
@@ -122,6 +130,35 @@ export default function EdgeManagerAssessment() {
                                     <div className="form-group">
                                     <h4>Let us begin –</h4>
                                     <textarea name="messagebox" className="form-control" id="messagebox" cols="30" rows="3" placeholder="What is the change initiative?" />
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>Move toward what is uncomfortable or createsof vulnerability</label><br/>
+                                        <input type="radio" id="qq11" name="qq1" value="1" required/>
+                                          <label for="qq11">1</label><br/>
+                                        <input type="radio" id="qq12" name="qq1" value="2" required/>
+                                          <label for="qq12">2</label><br/>
+                                         <input type="radio" id="qq13" name="qq1" value="3" required/>
+                                          <label for="qq13">3</label><br/>
+                                          <input type="radio" id="qq14" name="qq1" value="4" required/>
+                                          <label for="qq14">4 </label>
+                                    </div>
+                                 </div>
+                                 {/* <span id="result"></span> */}
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>Tell me truth about what is and what needs to change</label><br/>
+                                        <input type="radio" id="qq21" name="qq2" value="1" required/>
+                                          <label for="qq21">1</label><br/>
+                                        <input type="radio" id="qq22" name="qq2" value="2" required/>
+                                          <label for="qq22">2</label><br/>
+                                         <input type="radio" id="qq23" name="qq2" value="3" required/>
+                                          <label for="qq23">3</label><br/>
+                                          <input type="radio" id="qq24" name="qq2" value="4" required/>
+                                          <label for="qq24">4 </label>
                                     </div>
                                  </div>
       
