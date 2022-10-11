@@ -504,3 +504,43 @@
 .lpnewbannerp h3{ color: #fff !important;}
 .pading0120{ padding: 20px 0px;}
 .maxw280{    max-width: 280px;}
+
+.headh h3{
+  color: #8ab7d9;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: normal;
+}
+.headh h5{
+  color: #97d700;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.resultd{
+  text-align: right;
+    border-bottom: 3px solid #97d700;
+    margin-bottom: 40px;
+}
+
+.resultd span{
+  color: #97d700;
+  font-size: 18px;
+}
+
+.totals{
+  display: inline-flex;
+  width: 100%;
+}
+
+.scord{
+  width: 25%;
+    border: 2px solid #97d700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.mysp{color: #8ab7d9 !important;}
+
+.mysp span{color: #97d700; font-size: 20px; padding-left: 20px;}

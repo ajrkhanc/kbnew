@@ -73,8 +73,44 @@ export default function EdgeManagerAssessment() {
 
    }
 
+   
+
+if (typeof window !== "undefined") {
+   document.contactForm.onclick = function(){
+      var fr1 = document.contactForm.c1q1.value;
+      var fr2 = document.contactForm.c2q2.value;
+      var fr3 = document.contactForm.c3q3.value;
+      var courseresult = parseInt(fr1) + parseInt(fr2) + parseInt(fr3)
+      result1.innerHTML = 'Courage Total: '+courseresult;
+      couresult.innerHTML = courseresult;
+
+      var two1 = document.contactForm.cu1q2.value;
+      var two2 = document.contactForm.cu2q2.value;
+      var two3 = document.contactForm.cu3q2.value;
+      var couriosityresult = parseInt(two1) + parseInt(two2) + parseInt(two3)
+      couriosityresult1.innerHTML = 'Curiosity Total: '+couriosityresult;
+      curresult.innerHTML = couriosityresult;
+
+      var thre1 = document.contactForm.ag1q3.value;
+      var thre2 = document.contactForm.ag2q3.value;
+      var thre3 = document.contactForm.ag3q3.value;
+      var agilityresult = parseInt(thre1) + parseInt(thre2) + parseInt(thre3)
+      agilityresult1.innerHTML = 'Agility Total: '+agilityresult;
+      agresult.innerHTML = agilityresult;
+
+      var four1 = document.contactForm.gr1q4.value;
+      var four2 = document.contactForm.gr2q4.value;
+      var four3 = document.contactForm.gr3q4.value;
+      var gritresult = parseInt(four1) + parseInt(four2) + parseInt(four3)
+      gritresult1.innerHTML = 'Grit Total: '+gritresult;
+      grresult.innerHTML = gritresult;
+  }
+ }
+
    return (
-      <>
+      <> 
+
+<div id="results"></div>
          <Head>
             <title>Change Scan Assessment - Blanchard India</title>
             <meta name="description" content="" />
@@ -133,34 +169,238 @@ export default function EdgeManagerAssessment() {
                                     </div>
                                  </div>
 
-                                 <div className="col-lg-12">
+                                 
+                                <div className="headh">
+                                    <h3>Courage</h3>
+                                    <h5>Strenght in the cage of chanllenges and uncertainty</h5>
+                                </div>
+
+                                <div className="col-lg-12">
                                     <div className="form-group">
-                                       <label>Move toward what is uncomfortable or createsof vulnerability</label><br/>
-                                        <input type="radio" id="qq11" name="qq1" value="1" required/>
-                                          <label for="qq11">1</label><br/>
-                                        <input type="radio" id="qq12" name="qq1" value="2" required/>
-                                          <label for="qq12">2</label><br/>
-                                         <input type="radio" id="qq13" name="qq1" value="3" required/>
-                                          <label for="qq13">3</label><br/>
-                                          <input type="radio" id="qq14" name="qq1" value="4" required/>
-                                          <label for="qq14">4 </label>
+                                       <label>1. Move toward  what is uncomfortable or creates a sense of vulnerability</label><br/>
+                                        <input type="radio" id="c1StronglyDisagree1" name="c1q1" value="1" required/>
+                                          <label for="c1StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="c1Disagree1" name="c1q1" value="2" required/>
+                                          <label for="c1Disagree1">2</label><br/>
+                                         <input type="radio" id="c1Agree1" name="c1q1" value="3" required/>
+                                          <label for="c1Agree1">3</label><br/>
+                                          <input type="radio" id="c1StronglyAgree1" name="c1q1" value="4" required/>
+                                          <label for="c1StronglyAgree1">4</label>
                                     </div>
                                  </div>
-                                 {/* <span id="result"></span> */}
 
                                  <div className="col-lg-12">
                                     <div className="form-group">
-                                       <label>Tell me truth about what is and what needs to change</label><br/>
-                                        <input type="radio" id="qq21" name="qq2" value="1" required/>
-                                          <label for="qq21">1</label><br/>
-                                        <input type="radio" id="qq22" name="qq2" value="2" required/>
-                                          <label for="qq22">2</label><br/>
-                                         <input type="radio" id="qq23" name="qq2" value="3" required/>
-                                          <label for="qq23">3</label><br/>
-                                          <input type="radio" id="qq24" name="qq2" value="4" required/>
-                                          <label for="qq24">4 </label>
+                                       <label>2. Tell the truth about what is and what needs to change</label><br/>
+                                        <input type="radio" id="c2StronglyDisagree1" name="c2q2" value="1" required/>
+                                          <label for="c2StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="c2Disagree1" name="c2q2" value="2" required/>
+                                          <label for="c2Disagree1">2</label><br/>
+                                         <input type="radio" id="c2Agree1" name="c2q2" value="3" required/>
+                                          <label for="c2Agree1">3</label><br/>
+                                          <input type="radio" id="c2StronglyAgree1" name="c2q2" value="4" required/>
+                                          <label for="c2StronglyAgree1">4</label>
                                     </div>
                                  </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>3. Change your approach to change-share control by involving others in chang-marking</label><br/>
+                                        <input type="radio" id="c3StronglyDisagree1" name="c3q3" value="1" required/>
+                                          <label for="c3StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="c3Disagree1" name="c3q3" value="2" required/>
+                                          <label for="c3Disagree1">2</label><br/>
+                                         <input type="radio" id="c3Agree1" name="c3q3" value="3" required/>
+                                          <label for="c3Agree1">3</label><br/>
+                                          <input type="radio" id="c3StronglyAgree1" name="c3q3" value="4" required/>
+                                          <label for="c3StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+                                 <div className="resultd">
+                                    <span id="result1"></span>
+                                 </div>
+
+                                 <div className="headh">
+                                    <h3>Curiosity</h3>
+                                    <h5>A strong desire to know, learn, or understand something</h5>
+                                </div>
+
+                                <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>1. Ask about what is not fully understood</label><br/>
+                                        <input type="radio" id="cu1StronglyDisagree1" name="cu1q2" value="1" required/>
+                                          <label for="cu1StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="cu1Disagree1" name="cu1q2" value="2" required/>
+                                          <label for="cu1Disagree1">2</label><br/>
+                                         <input type="radio" id="cu1Agree1" name="cu1q2" value="3" required/>
+                                          <label for="cu1Agree1">3</label><br/>
+                                          <input type="radio" id="c1StronglyAgree1" name="cu1q2" value="4" required/>
+                                          <label for="cu1StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>2. Express interest in others' experiences, opinions, feelings, and well-being</label><br/>
+                                        <input type="radio" id="cu2StronglyDisagree1" name="cu2q2" value="1" required/>
+                                          <label for="cu2StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="cu2Disagree1" name="cu2q2" value="2" required/>
+                                          <label for="cu2Disagree1">2</label><br/>
+                                         <input type="radio" id="cu2Agree1" name="cu2q2" value="3" required/>
+                                          <label for="cu2Agree1">3</label><br/>
+                                          <input type="radio" id="cu2StronglyAgree1" name="cu2q2" value="4" required/>
+                                          <label for="cu2StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>3. Demonstrate that you value others by involving them in the change process and hearing their voices</label><br/>
+                                        <input type="radio" id="cu3StronglyDisagree1" name="cu3q2" value="1" required/>
+                                          <label for="cu3StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="cu3Disagree1" name="cu3q2" value="2" required/>
+                                          <label for="cu3Disagree1">2</label><br/>
+                                         <input type="radio" id="cu3Agree1" name="cu3q2" value="3" required/>
+                                          <label for="cu3Agree1">3</label><br/>
+                                          <input type="radio" id="cu3StronglyAgree1" name="cu3q2" value="4" required/>
+                                          <label for="cu3StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+                                 <div className="resultd">
+                                    <span id="couriosityresult1"></span>
+                                 </div>
+
+
+
+                                 <div className="headh">
+                                    <h3>Agility</h3>
+                                    <h5>The ability to think, understand, and move quickly</h5>
+                                </div>
+
+                                <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>1. Recognize the need to change and act quickly</label><br/>
+                                        <input type="radio" id="ag1StronglyDisagree1" name="ag1q3" value="1" required/>
+                                          <label for="ag1StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="ag1Disagree1" name="ag1q3" value="2" required/>
+                                          <label for="ag1Disagree1">2</label><br/>
+                                         <input type="radio" id="ag1Agree1" name="ag1q3" value="3" required/>
+                                          <label for="ag1Agree1">3</label><br/>
+                                          <input type="radio" id="ag1StronglyAgree1" name="ag1q3" value="4" required/>
+                                          <label for="ag1StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>2. Remain open-minded when things don't go as planned</label><br/>
+                                        <input type="radio" id="ag2StronglyDisagree1" name="ag2q3" value="1" required/>
+                                          <label for="ag2StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="ag2Disagree1" name="ag2q3" value="2" required/>
+                                          <label for="ag2Disagree1">2</label><br/>
+                                         <input type="radio" id="ag2Agree1" name="ag2q3" value="3" required/>
+                                          <label for="ag2Agree1">3</label><br/>
+                                          <input type="radio" id="ag2StronglyAgree1" name="ag2q3" value="4" required/>
+                                          <label for="ag2StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>3. Anticipate and flexibly respond to others' concerns</label><br/>
+                                        <input type="radio" id="ag3StronglyDisagree1" name="ag3q3" value="1" required/>
+                                          <label for="ag3StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="ag3Disagree1" name="ag3q3" value="2" required/>
+                                          <label for="ag3Disagree1">2</label><br/>
+                                         <input type="radio" id="ag3Agree1" name="ag3q3" value="3" required/>
+                                          <label for="ag3Agree1">3</label><br/>
+                                          <input type="radio" id="ag3StronglyAgree1" name="ag3q3" value="4" required/>
+                                          <label for="ag3StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+                                 <div className="resultd">
+                                    <span id="agilityresult1"></span>
+                                 </div>
+
+                                 <div className="headh">
+                                    <h3>Grit</h3>
+                                    <h5>The ability to withstand discomfort; resilience</h5>
+                                </div>
+
+                                <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>1. Demonstrate passion for achieving lonng-term goals</label><br/>
+                                        <input type="radio" id="gr1StronglyDisagree1" name="gr1q4" value="1" required/>
+                                          <label for="gr1StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="gr1Disagree1" name="gr1q4" value="2" required/>
+                                          <label for="gr1Disagree1">2</label><br/>
+                                         <input type="radio" id="gr1Agree1" name="gr1q4" value="3" required/>
+                                          <label for="gr1Agree1">3</label><br/>
+                                          <input type="radio" id="gr1StronglyAgree1" name="gr1q4" value="4" required/>
+                                          <label for="gr1StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>2. Persevere in the face of discomfort and chanllenges</label><br/>
+                                        <input type="radio" id="gr2StronglyDisagree1" name="gr2q4" value="1" required/>
+                                          <label for="gr2StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="gr2Disagree1" name="gr2q4" value="2" required/>
+                                          <label for="gr2Disagree1">2</label><br/>
+                                         <input type="radio" id="gr2Agree1" name="gr2q4" value="3" required/>
+                                          <label for="gr2Agree1">3</label><br/>
+                                          <input type="radio" id="gr2StronglyAgree1" name="gr2q4" value="4" required/>
+                                          <label for="gr2StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>3. Demonstrate resolve in seeing things through</label><br/>
+                                        <input type="radio" id="gr3StronglyDisagree1" name="gr3q4" value="1" required/>
+                                          <label for="gr3StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="gr3Disagree1" name="gr3q4" value="2" required/>
+                                          <label for="gr3Disagree1">2</label><br/>
+                                         <input type="radio" id="gr3Agree1" name="gr3q4" value="3" required/>
+                                          <label for="gr3Agree1">3</label><br/>
+                                          <input type="radio" id="gr3StronglyAgree1" name="gr3q4" value="4" required/>
+                                          <label for="gr3StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+                                 <div className="resultd">
+                                    <span id="gritresult1"></span>
+                                 </div>
+
+
+                                 <div className="headh">
+                                    <h3>Total Scores</h3>
+                                    <div className="totals">
+                                       <div className="scord">
+                                          <span className="cname">Courage: </span>
+                                          <span className="cvalue" id="couresult"></span>
+                                       </div>
+
+                                       <div className="scord">
+                                          <span className="cname">Curiosity: </span>
+                                          <span className="cvalue" id="curresult"></span>
+                                       </div>
+
+                                       <div className="scord">
+                                          <span className="cname">Agility: </span>
+                                          <span className="cvalue" id="agresult"></span>
+                                       </div>
+
+                                       <div className="scord">
+                                          <span className="cname">Grit: </span>
+                                          <span className="cvalue" id="grresult"></span>
+                                       </div>
+                                    </div>
+                                </div>
+
+                                 
+
+                                 
       
                                  <div className="col-lg-12">
                                     <div className="form-group">
@@ -509,6 +749,86 @@ export default function EdgeManagerAssessment() {
                                           <label for="Agree25">C. Not supportive of this change</label><br/>
                                        
                                     </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                    <label>1. Describe an unsuccessful past change effort you led or were impacted by.</label><br/>
+                                       <input type="text" name="qq1" className="form-control" required />
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                    <label>2. What were the three most critical reasons that the change was not successful?</label><br/>
+                                       <input type="text" name="qq2" className="form-control" required />
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                    <label>3. When you think of specific people impacted by the change, what were the concerns they had that were not expected or addressed?</label><br/>
+                                       <input type="text" name="qq3" className="form-control" required />
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>4. When the change was first announed what was your attitude toward the change?</label><br/>
+                                        <input type="radio" id="qq4StronglyDisagree25" name="qq4" value="A. Supportive" required/>
+                                          <label for="qq4StronglyDisagree25">A. Supportive</label><br/>
+                                        <input type="radio" id="qq4Disagree25" name="qq4" value="B. Undecided" required/>
+                                          <label for="qq4Disagree25">B. Undecided</label><br/>
+                                         <input type="radio" id="qq4Agree25" name="qq4" value="C. Not supportive" required/>
+                                          <label for="qq4Agree25">C. Not supportive</label><br/>
+                                       
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>5. To what extent did your or others have opportunities to raise questions about the change?</label><br/>
+                                        <input type="radio" id="qq5StronglyDisagree1" name="qq5" value="1" required/>
+                                          <label for="qq5StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="qq5Disagree1" name="qq5" value="2" required/>
+                                          <label for="qq5Disagree1">2</label><br/>
+                                         <input type="radio" id="qq5Agree1" name="qq5" value="3" required/>
+                                          <label for="qq5Agree1">3</label><br/>
+                                          <input type="radio" id="qq5StronglyAgree1" name="qq5" value="4" required/>
+                                          <label for="qq5StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>6. To what extent were you or others involved in planning for the change?</label><br/>
+                                        <input type="radio" id="qq6StronglyDisagree1" name="qq6" value="1" required/>
+                                          <label for="qq6StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="qq6Disagree1" name="qq6" value="2" required/>
+                                          <label for="qq6Disagree1">2</label><br/>
+                                         <input type="radio" id="qq6Agree1" name="qq6" value="3" required/>
+                                          <label for="qq6Agree1">3</label><br/>
+                                          <input type="radio" id="qq6StronglyAgree1" name="qq6" value="4" required/>
+                                          <label for="qq6StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="col-lg-12">
+                                    <div className="form-group">
+                                       <label>7. To what extent did you or others understand why the change was needed?</label><br/>
+                                        <input type="radio" id="qq7StronglyDisagree1" name="qq7" value="1" required/>
+                                          <label for="qq7StronglyDisagree1">1</label><br/>
+                                        <input type="radio" id="qq7Disagree1" name="qq7" value="2" required/>
+                                          <label for="qq7Disagree1">2</label><br/>
+                                         <input type="radio" id="qq7Agree1" name="qq7" value="3" required/>
+                                          <label for="qq7Agree1">3</label><br/>
+                                          <input type="radio" id="qq7StronglyAgree1" name="qq7" value="4" required/>
+                                          <label for="qq7StronglyAgree1">4</label>
+                                    </div>
+                                 </div>
+
+                                 <div className="resultd">
+                                    <span className="mysp"><span>Scale</span> <span>1</span> = not at all <span>5</span> = a lot</span>
                                  </div>
                                    
                                  <div className="col-lg-12 col-md-12">
