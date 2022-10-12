@@ -69,7 +69,26 @@ export default function EdgeManagerAssessment() {
          + "&q22=" + event.target.q22.value
          + "&q23=" + event.target.q23.value
          + "&q24=" + event.target.q24.value
-         + "&q25=" + event.target.q25.value)
+         + "&q25=" + event.target.q25.value
+         + "&c1q1=" + event.target.c1q1.value
+         + "&c2q2=" + event.target.c2q2.value
+         + "&c3q3=" + event.target.c3q3.value
+         + "&cu1q2=" + event.target.cu1q2.value
+         + "&cu2q2=" + event.target.cu2q2.value
+         + "&cu3q2=" + event.target.cu3q2.value
+         + "&ag1q3=" + event.target.ag1q3.value
+         + "&ag2q3=" + event.target.ag2q3.value
+         + "&ag3q3=" + event.target.ag3q3.value
+         + "&gr1q4=" + event.target.gr1q4.value
+         + "&gr2q4=" + event.target.gr2q4.value
+         + "&gr3q4=" + event.target.gr3q4.value
+         + "&qq1=" + event.target.qq1.value
+         + "&qq2=" + event.target.qq2.value
+         + "&qq3=" + event.target.qq3.value
+         + "&qq4=" + event.target.qq4.value
+         + "&qq5=" + event.target.qq5.value
+         + "&qq6=" + event.target.qq6.value
+         + "&qq7=" + event.target.qq7.value)
 
    }
 
