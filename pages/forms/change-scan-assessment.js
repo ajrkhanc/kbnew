@@ -851,7 +851,7 @@ if (typeof window !== "undefined") {
                                  </div>
                                    
                                  <div className="col-lg-12 col-md-12">
-                                    <input id="submitbuttonform" className="default-btn btn-bg1 disabled" type="submit" value="Send Messageme" />
+                                    <input id="submitbuttonform" className="default-btn btn-bg1 disabled" type="submit" value="Submit" />
                                     <div id="msgSubmit" className="h3 text-center hidden"></div>
                                     <div className="clearfix"></div>
                                     <p id="showlabel" style={{ display: "none" }}></p>
