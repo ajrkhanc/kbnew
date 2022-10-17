@@ -544,3 +544,33 @@
 .mysp{color: #8ab7d9 !important;}
 
 .mysp span{color: #97d700; font-size: 20px; padding-left: 20px;}
+.highinnovatin h2{
+  color: #7bafd4;
+    font-size: 30px;
+}
+
+.highrating{
+  display: inline-flex;
+  width: 100%;
+  background: #97d700;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.highrating .ratess {
+  width: 25%;
+    color: #fff;
+    font-size: 18px;
+    
+}
+
+.borrr{
+  border-right: 2px solid #fff;
+}
+
+.mset{
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 22px;
+}

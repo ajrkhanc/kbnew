@@ -162,7 +162,6 @@ if (typeof window !== "undefined") {
                      <div className="col-lg-12">
                         <div className="contact-form">
                             <p>Thank You for taking out valuable time to complete this assessment as part of your Leading People Through Change workshop. The Change Scan presents a snapshot of the likelihood of successfully implementing a specific change. It provides insight as to where the change is set up for success and where it could derail or fail. </p>
-                            <p>IDENTIFY the change initiative, then READ each statement below. For statements 1 through 24, select the response that indicates your level of agreement. For statement 25, select the phrase that best describes your attitude about this change.</p>
                             <p><b>Before we begin, please share the following details –</b></p>
                             
                            <form id="contactForm" name="contactForm" onSubmit={registerUser}>
@@ -186,6 +185,27 @@ if (typeof window !== "undefined") {
                                     <h4>Let us begin –</h4>
                                     <textarea name="messagebox" className="form-control" id="messagebox" cols="30" rows="3" placeholder="What is the change initiative?" />
                                     </div>
+                                 </div>
+
+                                 <div className="highinnovatin">
+                                    <h2>High-Involvement Change Mindset</h2>
+                                    <div className="highrating">
+                                       <div className="ratess borrr">
+                                          1 = Never
+                                       </div>
+                                       <div className="ratess borrr">
+                                          2 = Rarely
+                                       </div>
+                                       <div className="ratess borrr">
+                                          3 = Frequently
+                                       </div>
+                                       <div className="ratess">
+                                          4 = Always
+                                       </div>
+                                    </div>
+                                    <p className="mset">
+                                       Rate how often you display these behaviors for each attribute of a high-involvement change mindset.
+                                    </p>
                                  </div>
 
                                  
@@ -416,6 +436,27 @@ if (typeof window !== "undefined") {
                                        </div>
                                     </div>
                                 </div>
+
+                                <div className="highinnovatin">
+                                    <h2>Change Scan</h2>
+                                    <div className="highrating">
+                                       <div className="ratess borrr">
+                                          1 = Strongly Disagree
+                                       </div>
+                                       <div className="ratess borrr">
+                                          2 = Disagree
+                                       </div>
+                                       <div className="ratess borrr">
+                                          3 = Agree
+                                       </div>
+                                       <div className="ratess">
+                                          4 = Strongly Agree
+                                       </div>
+                                    </div>
+                                    <p className="mset">
+                                    IDENTIFY the change initiative, then READ each statement below. For statements 1 through 24, select the response that indicates your level of agreement. For statement 25, select the phrase that best describes your attitude about this change.
+                                    </p>
+                                 </div>
 
                                  
 
@@ -768,6 +809,10 @@ if (typeof window !== "undefined") {
                                           <label for="Agree25">C. Not supportive of this change</label><br/>
                                        
                                     </div>
+                                 </div>
+
+                                 <div className="highinnovatin">
+                                    <h2>Unsuccessful Past Change</h2>                                 
                                  </div>
 
                                  <div className="col-lg-12">
