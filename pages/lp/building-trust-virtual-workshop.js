@@ -90,7 +90,7 @@ export default function BlanchardGenericLPNew() {
       xhttp.onload = function () {
          // console.log(this.responseText.status);
       }
-      xhttp.open("Post", 'https://ajrkhan.xyz/blanchardinternational/wp-json/contact-form-7/v1/contact-forms/85/feedback');
+      xhttp.open("Post", 'https://ajrkhan.xyz/blanchardinternational/wp-json/contact-form-7/v1/contact-forms/180/feedback');
       xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
       xhttp.onreadystatechange = function () {
          if (xhttp.readyState == 4) {
@@ -125,14 +125,14 @@ export default function BlanchardGenericLPNew() {
     return (
         <>
         <Head>
-            <title>Team Leadership Training for Effective Team Performance</title>
+            <title>Building Trust Training to Increase Engagement, Creativity, and Commitment</title>
             <meta name="description" content="" />
          </Head>
 
          <script
             dangerouslySetInnerHTML={{
               __html: `
-              var deadline = new Date("oct 28, 2022 09:00:00").getTime();
+              var deadline = new Date("nov 09, 2022 09:00:00").getTime();
 
 var x = setInterval(function() {
 
@@ -160,11 +160,11 @@ if (t < 0) {
          
          <div className="inner-banner genericnewlp genericnewlps pading0120" id="book-now">
             <div className="container">
-                <div className='row'>
+                <div className='row align-items-center'>
                    <div className='col-md-7'>
-                        <div className="inner-title text-center formtbg lpnewbannerp">                           
-                            <img class="img-responsive maxw280" src="/assets/img/kb-award.png"/>
-                            <h3>Team Leadership Training for Effective Team Performance</h3>
+                        <div className="inner-title text-center formtbg lpnewbannerp minh3">                           
+                            {/* <img class="img-responsive maxw280" src="/assets/img/kb-award.png"/> */}
+                            <h3>Building Trust Training to Increase Engagement, Creativity, and Commitment</h3>
                             <h4 className='landingpagesbannerh4 landingpagesbannerh4cc'><span>Enroll in Excellence – Limited Seats Left!</span></h4>
                         </div>
                    </div>
@@ -243,45 +243,37 @@ if (t < 0) {
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-md-12">
-                        <h3 className="bbdrh">Building High Performing Teams Culminates In</h3>
+                        <h3 className="bbdrh">Powerful Trust Model Includes</h3><br></br>
                     </div>
                     <div className="clearfix"></div>
-                    {/* <div className="col bbdr">                       
-                        <div class="business-box">
-                        <h5 className="bbdrh">Building High Performing Teams Culminates In</h5>
-                        </div>
-                    </div> */}
+                   
                     <div className="col bbdr">                       
                         <div class="business-box">
                         <img class="img-responsive topiconc" src="/assets/img/problem-solving.png"/>
-                            <h2>Solving complex organizational problems</h2>                            
+                            <h2>ABLE - Demonstrates Competence</h2>                            
                         </div>
                     </div>
                     <div className="col bbdr">                       
                         <div class="business-box">
-                        <img class="img-responsive topiconc" src="/assets/img/execution.png"/>
-                            <h2>Faster Execution </h2>
+                        <img class="img-responsive topiconc" src="/assets/img/believe.png"/>
+                            <h2>BELIEVABLE - Acts with Integrity</h2>
                             
                         </div>
                     </div>
                     <div className="col bbdr">                       
                         <div class="business-box">
-                        <img class="img-responsive topiconc" src="/assets/img/decision-making.png"/>
-                            <h2>Better Decision Making</h2>                            
+                        <img class="img-responsive topiconc" src="/assets/img/network.png"/>
+                            <h2>CONNECTED - Cares about Others</h2>                            
                         </div>
                     </div>
 
                     <div className="col bbdr">                       
                         <div class="business-box">
-                        <img class="img-responsive topiconc" src="/assets/img/design-thinking.png"/>
-                            <h2>Creativity Enhancement</h2>                            
+                        <img class="img-responsive topiconc" src="/assets/img/dependencies.png"/>
+                            <h2>DEPENDABLE - Honors Commitments</h2>                            
                         </div>
-                    </div><div className="col bbdr">                       
-                        <div class="business-box">
-                        <img class="img-responsive topiconc" src="/assets/img/data-analytics.png"/>
-                            <h2>Produce Consistently Superior Results</h2>                            
-                        </div>
-                    </div>                    
+                    </div>
+                                     
                                       
                 </div>
             </div>
@@ -295,14 +287,14 @@ if (t < 0) {
                     <div className="col-md-6">
                         <div className="text-center borderccc">
                             {/* <img className='ptt50' src="/assets/img/home2-pic1.jpg" alt="Images"/> */}
-                            <iframe width="100%" height="390" src="https://www.youtube.com/embed/o1S21xdX-go" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="100%" height="390" src="https://www.youtube.com/embed/fCIWUJ9ZFnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                     </div>
                    <div className='col-md-6 clanderbg'>
                         <div className="inner-title text-center">
                             
                             <h4 className='landingpagesbannerh4 textsecondcolor textccx'>Team Leadership - Virtual Workshop</h4>
-                            <h5 className="sech5">October 18, 2022</h5>
+                            <h5 className="sech5">November 09, 2022</h5>
                             <h5 className="sech52">9:00 AM to 5:00 PM</h5>
                              <div className="daysca">
 
@@ -348,36 +340,42 @@ if (t < 0) {
          <div className="container">
             <div className="row align-items-center">
                <div className="col-lg-12">
-			   <h2 className="titleh2 text-center">Result Driven Team Leadership Training Program</h2>
+			   <h2 className="titleh2 text-center">Develop Trusting Relationships with Building Trust Program</h2>
 			 
                   <div className="what-did-left-content planboxpt80">
                      <div className="row row-eq-height height100p">
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
                               <img src="/assets/img/improve.png" alt="Images"/>
-                              <h3>IMPROVED COALITION</h3>
-							  <p>High-performing teams bring together additional skills, strengths, and experience beyond the capabilities of any individual member.</p>
+                              <h3>Increase Productivity</h3>
+							  <p>Employees have a higher level of commitment and discretion.</p>
                            </div>
                         </div>
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
                               <img src="/assets/img/badge.png" alt="Images"/>
-                              <h3>ACHIEVE ENHANCED RESULTS</h3>
-							  <p>Effective teams are said to be empowered and accountable. They consistently execute strategy, achieve goals, and deliver exceptional results.</p>
+                              <h3>Retains Talent</h3>
+							  <p>
+                       Employees are more likely to stay and recognize the company as a great workplace.
+                       </p>
                            </div>
                         </div>
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
                               <img src="/assets/img/leverage.png" alt="Images"/>
-                              <h3>LEVERAGE INNOVATION</h3>
-							  <p>Team members work together and share ideas, talents, and perspectives to solve problems and develop innovative solutions creatively</p>
+                              <h3>Creativity and Innovation</h3>
+							  <p>
+                       Employees communicate more openly, share their best ideas, and feel safe by being proactive.
+                       </p>
                            </div>
                         </div>
                         <div className="col-md-3">
                            <div className="what-did-left-card text-center homeboxeql planbox planbox1">
                               <img src="/assets/img/diagram.png" alt="Images"/>
-                              <h3>STEADY PERFORMANCE</h3>
-							  <p>Team members who have become part of a cohesive winning team spread the skills and benefits of high performance throughout the organization.</p>
+                              <h3>Create Collaboration</h3>
+							  <p>
+                       Colleagues and teams help each other get work done together.
+                       </p>
                            </div>
                         </div>
                      </div>

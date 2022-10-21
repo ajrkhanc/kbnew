@@ -574,3 +574,7 @@
   line-height: 26px;
   padding-top: 22px;
 }
+.minh3{
+  min-height: 378px;
+  margin-top: 0px !important;
+}
