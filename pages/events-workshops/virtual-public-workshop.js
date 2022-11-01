@@ -80,7 +80,7 @@ export default function VirtualPublicWorkshop() {
                   <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3> SLX workshop - Virtual</h3>
+                        <h3>The SLII Experience™ Training for Trainers (T4T)</h3>
                         <p>14th & 15th November, 2022</p>
                         <div className='row eventsbottomarea2 text-center'>
                            <div className='col-sm-12'>
@@ -93,7 +93,7 @@ export default function VirtualPublicWorkshop() {
                   <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>SLX T4T Workshop - Virtual</h3>
+                        <h3>The SLII Experience™ Training for Trainers (T4T)</h3>
                         <p>16th & 17th November, 2022</p>
                         <div className='row eventsbottomarea2 text-center'>
                            <div className='col-sm-12'>
@@ -159,8 +159,8 @@ export default function VirtualPublicWorkshop() {
                            <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                               <option value="">---</option>
                               <option value="Building Trust - Virtual	November 9, 2022">Building Trust - Virtual	November 9, 2022</option>
-                              <option value="SLX workshop virtual 14th & 15th November, 2022">SLX workshop virtual 14th & 15th November, 2022</option>
-                              <option value="SLX T4T workshop virtual 16th & 17th November">SLX T4T workshop virtual 16th & 17th November</option>
+                              <option value="The SLII Experience™ Training for Trainers (T4T) 14th & 15th November, 2022">The SLII Experience™ Training for Trainers (T4T) 14th & 15th November, 2022</option>
+                              <option value="The SLII Experience™ Training for Trainers (T4T) 16th & 17th November">The SLII Experience™ Training for Trainers (T4T) 16th & 17th November</option>
                               
                            </select>
                         </div>
