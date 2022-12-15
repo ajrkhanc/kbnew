@@ -65,13 +65,11 @@ export default function VirtualPublicWorkshop() {
             <div className="what-did-left-content">
                <div className="row row-eq-height eventsandworkshopbox">
 
-              
-                
                   <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>Team Leadership - Virtual</h3>
-                        <p>December 13th, 2022</p>
+                        <h3>Blanchard Management Essentials - Virtual</h3>
+                        <p>December 20th, 2022</p>
                         <div className='row eventsbottomarea2 text-center'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
@@ -83,8 +81,8 @@ export default function VirtualPublicWorkshop() {
                   <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>Blanchard Management Essentials - Virtual</h3>
-                        <p>December 20th, 2022</p>
+                        <h3>The SLII Experience™ - Virtual</h3>
+                        <p>January 16th - 17th, 2023</p>
                         <div className='row eventsbottomarea2 text-center'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
@@ -147,8 +145,8 @@ export default function VirtualPublicWorkshop() {
                            <label>Pick up any Slot*</label>
                            <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                               <option value="">---</option>                              
-                              <option value="Team Leadership - Virtual - December 13th, 2022">Team Leadership - Virtual - December 13th, 2022</option>
                               <option value="Blanchard Management Essentials - Virtual - December 20th, 2022">Blanchard Management Essentials - Virtual - December 20th, 2022</option>
+                              <option value="The SLII Experience™ - Virtual - January 16th - 17th, 2023">The SLII Experience™ - Virtual - January 16th - 17th, 2023</option>
                            </select>
                         </div>
                      </div>
