@@ -81,8 +81,8 @@ export default function VirtualPublicWorkshop() {
                   <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>The SLII Experience™ - Virtual</h3>
-                        <p>January 16th - 17th, 2023</p>
+                        <h3>The SLII Experience™ - T4T</h3>
+                        <p>January 16th - 19th, 2023</p>
                         <div className='row eventsbottomarea2 text-center'>
                            <div className='col-sm-12'>
                               <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
@@ -146,7 +146,7 @@ export default function VirtualPublicWorkshop() {
                            <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                               <option value="">---</option>                              
                               <option value="Blanchard Management Essentials - Virtual - December 20th, 2022">Blanchard Management Essentials - Virtual - December 20th, 2022</option>
-                              <option value="The SLII Experience™ - Virtual - January 16th - 17th, 2023">The SLII Experience™ - Virtual - January 16th - 17th, 2023</option>
+                              <option value="The SLII Experience™ - T4T - January 16th - 19th, 2023">The SLII Experience™ - T4T - January 16th - 19th, 2023</option>
                            </select>
                         </div>
                      </div>
