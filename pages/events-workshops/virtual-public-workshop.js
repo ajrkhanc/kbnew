@@ -149,7 +149,8 @@ export default function VirtualPublicWorkshop() {
             <div className="container">
                <div className="row align-items-center">
                   <div className="col-lg-12">
-                     {/* <h2 className='text-center'>Take advantage of our virtual trainings.</h2> */}
+                     <h2 className='text-center'>Upcoming Events</h2>
+                     <br></br>
                      {/* <h2 className="titleh2 text-center">It’s time to stop traveling, not the learning!</h2>
                      <p className='text-center'>Amid the COVID19, while social distancing and avoiding large gatherings has become need-of-the-hour, we bring you <br />the power of virtual learning with our world-class leadership trainings so the learning won’t stop.</p>
                      <p className='text-center pb-25'>Take advantage of our virtual trainings.</p> */}
