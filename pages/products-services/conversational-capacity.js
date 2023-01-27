@@ -5,7 +5,7 @@ export default function ConversationalCapacity() {
     return (
         <>
         <Head>
-        <title>Self Leadership Training Program | Blanchard Research and Training India</title>
+        <title>Conversational Capacity | Blanchard Research and Training India</title>
         <meta name="description" content="World-class leadership training programs by the pioneers of leadership training and consulting in India. Self-leadership training program helps you develop and hone state-of-the-art leadership skills required to thrive in today’s challenging environment. Get an edge over the peers."/>
         <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -48,7 +48,7 @@ export default function ConversationalCapacity() {
                                             <div className="case-studies-list">
                                                 <i className='hoverbgn'><img src='/assets/img/sl-organizational-success-self-leadership-development.png'/></i>
                                                 <p>                                                
-                                                Leaders spend about <span className="blue">80% OF THEIR WORKDAYS COMMUNICATING1 .</span> <strong>But…</strong> On average, a person listens with only about <span className="blue">25% EFFICIENCY<sup>2</sup></span></p>                                                
+                                                Leaders spend about <span className="blue">80% OF THEIR WORKDAYS COMMUNICATING<sup>1</sup> .</span> <strong>But…</strong> On average, a person listens with only about <span className="blue">25% EFFICIENCY<sup>2</sup></span></p>
                                             </div>
                                         </div>                                          
                                         <div className="services-more-btn text-left">
@@ -141,7 +141,7 @@ export default function ConversationalCapacity() {
                   <div className="text-center pt-20 pb-25">
                   <h3 className='h3white'>AN INTRODUCTION TO LEGENDARY SERVICE (CUSTOMER SERVICE TRAINING)</h3>
                    
-                  <a className="default-btn-two" target="_blank" href="https://www.youtube.com/watch?v=LXtbGgiXSNo">
+                  <a className="default-btn-two" target="_blank" href="https://www.youtube.com/watch?v=aegpe3b8Yj4">
                   WATCH NOW<i className="bx bx-right-arrow-alt"></i>
                   </a>
                   </div>
@@ -178,7 +178,7 @@ export default function ConversationalCapacity() {
       </div>
    </div>
 
-   <div className="container">
+   {/* <div className="container">
          <div className="row">           
             <div className="col-lg-12">
                 <div className='text-center'>               
@@ -191,7 +191,7 @@ export default function ConversationalCapacity() {
                 </div>
             </div>
          </div>
-      </div>
+      </div> */}
         </>
     )
 }

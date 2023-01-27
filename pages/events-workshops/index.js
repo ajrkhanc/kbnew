@@ -45,8 +45,6 @@ export default function EventsAndWorkshop() {
                <div className="col-sm-4">
                      <div className="choose-card">
                         <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3 className="mbb-0">The SLII Experience™ - Virtual</h3>
-                        <p>January 23rd - 24th, 2023</p>
                         <h3 className="ptt10 mbb-0">The SLII Experience™ T4T</h3>
                         <p>January 30th - 31st, 2023</p>
                         <div className='row eventsbottomarea2 text-center'>

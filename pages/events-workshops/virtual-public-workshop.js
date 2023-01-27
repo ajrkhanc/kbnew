@@ -107,8 +107,7 @@ export default function VirtualPublicWorkshop() {
                               <div className="col-lg-6">
                                  <div className="form-group">
                                     <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
-                                       <option value="">Pick up any Slot*</option>
-                                       <option value="The SLII Experience™ - Virtual - January 23rd - 24th, 2023">The SLII Experience™ - Virtual - January 23rd - 24th, 2023</option>
+                                       <option value="">Pick up any Slot*</option>                                       
                                        <option value="The SLII Experience™ T4T - January 30th - 31st, 2023">The SLII Experience™ T4T - January 30th - 31st, 2023</option>
                                        <option value="Self Leadership - Virtual - January 31st, 2023">Self Leadership - Virtual - January 31st, 2023</option>
                                        <option value="Conversational Capacity - Virtual - February 10th, 2023">Conversational Capacity - Virtual - February 10th, 2023</option>
@@ -161,9 +160,7 @@ export default function VirtualPublicWorkshop() {
 
                            <div className="col-sm-4">
                               <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3 className="mbb-0">The SLII Experience™ - Virtual</h3>
-                                 <p>January 23rd - 24th, 2023</p>
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />                                 
                                  <h3 className="ptt10 mbb-0">The SLII Experience™ T4T</h3>
                                  <p>January 30th - 31st, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>

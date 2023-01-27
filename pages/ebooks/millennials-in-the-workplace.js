@@ -24,7 +24,7 @@ function EbooksKB() {
 
                document.getElementById("showlabel").style.display = "block";
                window.setTimeout(function () {
-                   window.location.href = "/pdf/Alexa-Shoen-Entry-Level-Boss.mp3"
+                   window.location.href = "/pdf/millennials-in-the-workplace.pdf"
                }, 3000);
 
             } else {
@@ -44,10 +44,10 @@ function EbooksKB() {
    return (
       <>
          <Head>
-            <title>Finding Your Dream Job with Alexa Shoen</title>
+            <title>Millennials In The Workplace</title>
             <meta name="description" content="Investing in learning and development of employees can be tough. Contact us for all general and non-sales enquiries and talk to our expert advisors and business counsellors to understand what program will suit your requirements best." />            
          </Head>
-  
+            
 
     <div id="REQUEST" className="contact-area pt-45 pb-25 themebg">
         <div className="container">
@@ -55,11 +55,11 @@ function EbooksKB() {
                 <div className="col-lg-12">
                 <div className='text-center pb-25'>
                     
-                    <h3 className='titleh2'>Finding Your Dream Job with Alexa Shoen</h3>
+                    <h3 className='titleh2'>Millennials In The Workplace</h3>
                     <h3 className='titleh2'>Fill in your details to read more</h3>
                 </div>
                 <div className="contact-form">                  
-                <form id="contactForm" method="post" onSubmit={RequestForEbook}>
+                    <form id="contactForm" method="post" onSubmit={RequestForEbook}>
                      <div className="row">
                         <div className="col-sm-6">
                            <div className="form-group">
@@ -96,8 +96,9 @@ function EbooksKB() {
             </div>
         </div>
     </div>
-</>
-)
+
+    </>
+   )
 }
 
 export default EbooksKB

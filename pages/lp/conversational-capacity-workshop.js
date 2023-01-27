@@ -11,7 +11,7 @@ export default function ConversationalCapacityWebinar() {
       xhttp.onload = function () {
          // console.log(this.responseText.status);
       }
-      xhttp.open("Post", 'https://ajrkhan.xyz/blanchardinternational/wp-json/contact-form-7/v1/contact-forms/297/feedback');
+      xhttp.open("Post", 'https://ajrkhan.xyz/blanchardinternational/wp-json/contact-form-7/v1/contact-forms/299/feedback');
       xhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded;");
       xhttp.onreadystatechange = function () {
          if (xhttp.readyState == 4) {
@@ -47,7 +47,7 @@ export default function ConversationalCapacityWebinar() {
     return (
         <>
         <Head>
-            <title>Conversations About Change: Increasing Your Conversational Capacity for a Successful Change Initiatives</title>
+            <title>Conversational Capacity Workshop</title>
             <meta name="description" content="Many companies in today’s marketplace struggle with millennial employees quitting before the one-year mark. This is arguably not only a considerable waste of time, but extremely expensive for companies to hire and retain new employees year after year." />
          </Head>
 
@@ -100,7 +100,7 @@ export default function ConversationalCapacityWebinar() {
                            <div className="form-group">
                               <label>Program Name*</label>                              
                               <select className="form-control" name="interest_in" required>
-                                 <option value="Increasing Your Conversational Capacity for a Successful Change Initiatives: 22nd July, 2022">Increasing Your Conversational Capacity for a Successful Change Initiatives: 22nd July, 2022</option>
+                                 <option value="Conversational Capacity Workshop: 10th February, 2023">Conversational Capacity Workshop: 10th February, 2023</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
@@ -164,7 +164,7 @@ export default function ConversationalCapacityWebinar() {
                </div>
                <div className="col-lg-6">
                   <div className="">
-                     <img src="/assets/img/cc-webinar.jpg" alt="Images"/>
+                     <img src="/assets/img/cc-workshop.jpg" alt="Images"/>
                   </div>
                </div>
             </div>
