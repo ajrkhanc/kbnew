@@ -597,3 +597,24 @@
   color: #000 !important;
   padding: 0px 12px !important;
 }
+
+.podcastd{
+  box-shadow: 0 0 15px rgb(0 0 0 / 5%);
+  background-color: #fff;
+  padding: 22px;
+}
+
+.podcastd h3{
+  color: #000000;
+    font-size: 28px;
+    line-height: 37px;
+    padding-bottom: 8px;
+}
+
+.podcastd p{
+  margin: 0px;
+    padding-top: 10px;
+}
+.podcastd p a{
+  color: #97d700;;
+}

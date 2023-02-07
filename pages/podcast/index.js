@@ -22,23 +22,23 @@ export default function PodCast() {
             </div>
             </div>
             <div className="what-did-area pb-40 pt-45 style2 themebg">
-            <div className="container">
+            <div className="container">          
                 <div className="row align-items-center">
                     <div className="col-lg-12">
                         <div className="what-did-left-content">
                         <div className="row row-eq-height eventsandworkshopbox">
                             <div className="col-sm-4">
                                 <div className="choose-card">
-                                    <img src="/assets/img/podcast1.jpg" alt="Images"/>
-                                    <h3>High Performance Habits: How Extraordinary People Become...</h3>                                    
+                                    <img src="/assets/img/podcast/beating-burnout-with-christina-maslach.jpg" alt="Images"/>
+                                    <h3>Beating Burnout with Christina Maslach</h3>                                    
                                     <div className='row text-center eventsbottomarea2'>
                                     <div className='col-sm-12'>
-                                        <Link href="#"><a className="default-btn-two">Download Podcast<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                        <Link href="/podcast/beating-burnout-with-christina-maslach"><a className="default-btn-two">Download Podcast<i className="bx bx-right-arrow-alt"></i></a></Link>
                                     </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-4">
+                            {/* <div className="col-sm-4">
                                 <div className="choose-card">
                                     <img src="/assets/img/podcast2.jpg" alt="Images"/>
                                     <h3>How to Lead With Emotional <br/>Courage</h3>                                   
@@ -60,7 +60,7 @@ export default function PodCast() {
                                     </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         </div>
                     </div>
