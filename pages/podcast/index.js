@@ -33,7 +33,7 @@ export default function PodCast() {
                                     <h3>Beating Burnout with Christina Maslach</h3>                                    
                                     <div className='row text-center eventsbottomarea2'>
                                     <div className='col-sm-12'>
-                                        <Link href="/podcast/beating-burnout-with-christina-maslach"><a className="default-btn-two">Download Podcast<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                        <Link href="/podcast/beating-burnout-with-christina-maslach"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
                                     </div>
                                     </div>
                                 </div>
