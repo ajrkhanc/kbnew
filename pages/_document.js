@@ -23,12 +23,9 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <meta charset="utf-8" />
-            <meta name="description" content="" />
+            <meta charset="utf-8" />            
             <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-            <title>Leadership Training in India | Leadership Training Programs - Blanchard</title>
-            <meta name="description" content="Lead the winning path with Leadership training programs in India. Acquiring Leadership training by the experts help in the development of the individuals."/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>            
             <link rel="icon" href="/favicon.ico" />  
             <meta name="facebook-domain-verification" content="aequc18jzotzx1fcbz3rfx06pu7tzz" />
             <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"/>          
