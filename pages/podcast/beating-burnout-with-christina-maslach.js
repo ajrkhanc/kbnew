@@ -21,9 +21,9 @@ export default function PodCastinner() {
                                 <h3>Beating Burnout with Christina Maslach</h3>
                                 <iframe allowfullscreen="" height="192" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" src="https://play.libsyn.com/embed/episode/id/25153776/height/192/theme/modern/size/large/thumbnail/yes/custom-color/59a3d4/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" title="Embed Player" webkitallowfullscreen="true" width="100%"></iframe>
                                 <div>
-                                    <p>In this episode, hear Bill Treasurer share tips for becoming a more confident and competent leader from his latest book, <i>Leadership Two Words at a Time.</i> His message is especially helpful for new leaders, but leaders at all levels will find wisdom in his words.</p>
+                                    <p>In this episode, hear Christina Maslach explain the causes of burnout as described in her new book, <i>The Burnout Challenge.</i> She talks about how to recognize the signs of employee burnout and how to combat the issue to promote increased productivity and health.</p>
                                     <p>
-                                    For more information about Bill Treasurer, visit <a target="_blank" href='https://www.couragebuilding.com'>www.couragebuilding.com</a>
+                                    For more information about Christina Maslach, visit <a target="_blank" href='https://www.theburnoutchallenge.com/'>www.theburnoutchallenge.com</a>
                                     </p>
                                 </div>
                                 </div>
