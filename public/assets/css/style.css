@@ -120,7 +120,7 @@ img {
     padding-top: 10px;
 }
 .default-btn {
-    padding: 12px 32px;
+    padding: 12px 10px;
     color: #fff;
     font-weight: 500;
     position: relative;
@@ -7299,6 +7299,10 @@ form textarea{color: #000;
 
         .pll-5{ padding-left: 5px;}
         .mbb-5{margin-bottom: 5px;}
+
+        .resorcesul{
+            width: 155px !important;
+        }
 
 
     
