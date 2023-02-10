@@ -41,7 +41,7 @@ export default function VirtualPublicWorkshop() {
          "&leadsquared-JobTitle=" + event.target.leadsquared_JobTitle.value +
          "&leadsquared-mx_States=" + event.target.leadsquared_mx_States.value +
          "&leadsquared-mx_Showed_Interest_in=" + event.target.leadsquared_mx_Showed_Interest_in.value +
-         "&referredby=" + event.target.referredby.value +     
+         "&referredby=" + event.target.referredby.value +
          "&leadsquared-mx_Business_Entity=" + event.target.leadsquared_mx_Business_Entity.value)
 
    }
@@ -107,11 +107,13 @@ export default function VirtualPublicWorkshop() {
                               <div className="col-lg-6">
                                  <div className="form-group">
                                     <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
-                                       <option value="">Pick up any Slot*</option>                                       
-                                       <option value="The SLII Experience™ T4T - January 30th - 31st, 2023">The SLII Experience™ T4T - January 30th - 31st, 2023</option>
-                                       <option value="Self Leadership - Virtual - January 31st, 2023">Self Leadership - Virtual - January 31st, 2023</option>
-                                       <option value="Conversational Capacity - Virtual - February 10th, 2023">Conversational Capacity - Virtual - February 10th, 2023</option>
+                                       <option value="">Pick up any Slot*</option>
                                        <option value="Building Trust - Virtual - February 22nd, 2023">Building Trust - Virtual - February 22nd, 2023</option>
+                                       <option value="The SLII Experience™ - Virtual March 13th, 2023">The SLII Experience™ - Virtual March 13th, 2023</option>
+                                       <option value="The SLII Experience™ T4T March 15th, 2023">The SLII Experience™ T4T March 15th, 2023</option>
+                                       <option value="Blanchard Management Essentials - Virtual March 21st, 2023">Blanchard Management Essentials - Virtual March 21st, 2023</option>
+                                       <option value="The SLII Experience™ March 27th, 2023">The SLII Experience™ March 27th, 2023</option>
+
                                     </select>
                                  </div>
                               </div>
@@ -160,9 +162,21 @@ export default function VirtualPublicWorkshop() {
 
                            <div className="col-sm-4">
                               <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />                                 
-                                 <h3 className="ptt10 mbb-0">The SLII Experience™ T4T</h3>
-                                 <p>January 30th - 31st, 2023</p>
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Building Trust - Virtual</h3>
+                                 <p>February 22nd, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                       <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3 className="ptt10 mbb-0">The SLII Experience™ - Virtual</h3>
+                                 <p> March 13th, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
                                        <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
@@ -174,8 +188,8 @@ export default function VirtualPublicWorkshop() {
                            <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3>Self Leadership - Virtual</h3>
-                                 <p>January 31st, 2023</p>
+                                 <h3>The SLII Experience™ T4T</h3>
+                                 <p>March 15th, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
                                        <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
@@ -185,30 +199,32 @@ export default function VirtualPublicWorkshop() {
                            </div>
 
                            <div className="col-sm-4">
-                     <div className="choose-card">
-                        <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>Conversational Capacity - Virtual</h3>
-                        <p>February 10th, 2023</p>
-                        <div className='row eventsbottomarea2 text-center'>
-                           <div className='col-sm-12'>
-                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Blanchard Management Essentials - Virtual</h3>
+                                 <p>March 21st, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                       <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
-                        </div>
-                     </div>
-                  </div>
 
-                  <div className="col-sm-4">
-                     <div className="choose-card">
-                        <img src="/assets/img/workshopformain1.jpg" alt="Images"/>
-                        <h3>Building Trust - Virtual</h3>
-                        <p>February 22nd, 2023</p>
-                        <div className='row eventsbottomarea2 text-center'>
-                           <div className='col-sm-12'>
-                              <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>The SLII Experience™</h3>
+                                 <p>March 27th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                       <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
                            </div>
-                        </div>
-                     </div>
-                  </div>
+
+
 
 
                         </div>
