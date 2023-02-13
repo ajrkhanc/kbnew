@@ -52,7 +52,7 @@ export default function EventsAndWorkshop() {
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
                                  <h3 className="ptt10 mbb-0">The SLII Experience™ - Virtual</h3>
-                                 <p> March 13th, 2023</p>
+                                 <p> March 13th - 14th, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
                                        <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
@@ -65,7 +65,7 @@ export default function EventsAndWorkshop() {
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
                                  <h3>The SLII Experience™ T4T</h3>
-                                 <p>March 15th, 2023</p>
+                                 <p>March 13th - 16th, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
                                        <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
