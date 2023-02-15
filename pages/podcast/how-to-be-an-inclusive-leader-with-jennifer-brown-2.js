@@ -5,7 +5,7 @@ export default function PodCastinner() {
     return (
         <>
         <Head>
-        <title>Podcast - How to Be an Inclusive Leader with Jennifer Brown</title>
+        <title>Podcast - How to Be an Inclusive Leader with Jennifer Brown </title>
         <meta name="description" content="In this episode, hear Jennifer Brown deliver a call to action for leaders at every level to find their role and voice in affecting societal and workplace change. She shares concepts from her new book, How to Be an Inclusive Leader, Second Edition."/>
         <link rel="icon" href="/favicon.ico" />
         </Head>
