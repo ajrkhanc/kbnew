@@ -38,6 +38,18 @@ export default function PodCast() {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="col-sm-4">
+                                <div className="choose-card">
+                                    <img src="/assets/img/podcast/how-to-be-an-inclusive-leader-with-jennifer-brown-2.jpg" alt="Images"/>
+                                    <h3>How to Be an Inclusive Leader with Jennifer Brown</h3>                                    
+                                    <div className='row text-center eventsbottomarea2'>
+                                    <div className='col-sm-12'>
+                                        <Link href="/podcast/how-to-be-an-inclusive-leader-with-jennifer-brown-2"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                             {/* <div className="col-sm-4">
                                 <div className="choose-card">
                                     <img src="/assets/img/podcast2.jpg" alt="Images"/>
