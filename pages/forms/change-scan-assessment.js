@@ -256,7 +256,7 @@ if (typeof window !== "undefined") {
                                     </div>
                                  </div>
                                  <div className="resultd">
-                                    <span id="result1"></span>
+                                    <span id="result1">kkjkkk</span>
                                  </div>
 
                                  <div className="headh">
