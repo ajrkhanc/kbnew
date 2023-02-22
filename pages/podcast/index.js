@@ -27,6 +27,30 @@ export default function PodCast() {
                     <div className="col-lg-12">
                         <div className="what-did-left-content">
                         <div className="row row-eq-height eventsandworkshopbox">
+
+                        <div className="col-sm-4">
+                                <div className="choose-card">
+                                    <img src="/assets/img/podcast/humbitious-the-power-of-low-ego-high-drive-leadership-with-amer-kaissi.jpg" alt="Images"/>
+                                    <h3>Humbitious: The Power of Low-Ego, High-Drive Leadership with Amer Kaissi</h3>                                    
+                                    <div className='row text-center eventsbottomarea2'>
+                                    <div className='col-sm-12'>
+                                        <Link href="/podcast/humbitious-the-power-of-low-ego-high-drive-leadership-with-amer-kaissi"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div className="col-sm-4">
+                                <div className="choose-card">
+                                    <img src="/assets/img/podcast/how-to-be-an-inclusive-leader-with-jennifer-brown-2.jpg" alt="Images"/>
+                                    <h3>How to Be an Inclusive Leader with Jennifer Brown</h3>                                    
+                                    <div className='row text-center eventsbottomarea2'>
+                                    <div className='col-sm-12'>
+                                        <Link href="/podcast/how-to-be-an-inclusive-leader-with-jennifer-brown-2"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div className="col-sm-4">
                                 <div className="choose-card">
                                     <img src="/assets/img/podcast/beating-burnout-with-christina-maslach.jpg" alt="Images"/>
@@ -39,17 +63,6 @@ export default function PodCast() {
                                 </div>
                             </div>
 
-                            <div className="col-sm-4">
-                                <div className="choose-card">
-                                    <img src="/assets/img/podcast/how-to-be-an-inclusive-leader-with-jennifer-brown-2.jpg" alt="Images"/>
-                                    <h3>How to Be an Inclusive Leader with Jennifer Brown</h3>                                    
-                                    <div className='row text-center eventsbottomarea2'>
-                                    <div className='col-sm-12'>
-                                        <Link href="/podcast/how-to-be-an-inclusive-leader-with-jennifer-brown-2"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
                             {/* <div className="col-sm-4">
                                 <div className="choose-card">
                                     <img src="/assets/img/podcast2.jpg" alt="Images"/>
