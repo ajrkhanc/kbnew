@@ -30,6 +30,18 @@ export default function PodCast() {
 
                         <div className="col-sm-4">
                                 <div className="choose-card">
+                                    <img src="/assets/img/podcast/the-no-os-of-leadership-with-mike-easley.jpg" alt="Images"/>
+                                    <h3>The No-Os of Leadership with Mike Easley</h3>                                    
+                                    <div className='row text-center eventsbottomarea2'>
+                                    <div className='col-sm-12'>
+                                        <Link href="/podcast/the-no-os-of-leadership-with-mike-easley"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <div className="col-sm-4">
+                                <div className="choose-card">
                                     <img src="/assets/img/podcast/humbitious-the-power-of-low-ego-high-drive-leadership-with-amer-kaissi.jpg" alt="Images"/>
                                     <h3>Humbitious: The Power of Low-Ego, High-Drive Leadership with Amer Kaissi</h3>                                    
                                     <div className='row text-center eventsbottomarea2'>
