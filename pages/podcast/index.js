@@ -8,6 +8,18 @@ export default function PodCast() {
         <title>Podcast - Blanchard International</title>
         <meta name="description" content="High Performance Habits: How Extraordinary People Become That Way with Brendon Burchard Click to download or get access to podcast How to Lead With Emotional Courage Click to download or get access to podcast The Happiness Equation with Neil Pasricha Click to download or get access to podcast"/>
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-92DL0L5P5Q"></script>
+        <script
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                      
+                        gtag('config', 'G-92DL0L5P5Q');
+          `,
+                    }}
+                />
         </Head>
          <div className="inner-banner books-head-headbg">
             <div className="container">
