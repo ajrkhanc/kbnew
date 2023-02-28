@@ -54,7 +54,7 @@ export default function VirtualPublicWorkshop() {
          </Head>
 
 
-         <div className="inner-banner genericnewlp">
+         <div className="inner-banner genericnewlp" id="REQUEST">
             <div className="container">
                <div className='row'>
                   <div className='col-sm-7'>
