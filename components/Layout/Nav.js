@@ -70,7 +70,7 @@ function Nav() {
                                     <a href="/how-we-work-with-you" class="nav-link">HOW WE WORK WITH YOU</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="/events-workshop" class="nav-link">EVENTS &amp; WORKSHOP
+                                    <a href="#" class="nav-link">EVENTS &amp; WORKSHOP
                                         <i class="bx bx-chevron-down"></i></a>
                                     <ul class="dropdown-menu" style={{ display: "none" }}>
                                         <li class="nav-item d-none">
@@ -159,13 +159,11 @@ function Nav() {
                                                 <li className="nav-item"><Link href="/about-us/meet-the-team"><a className="nav-link">Meet The Team</a></Link></li>
                                             </ul>
                                         </li>
-                                        <li className="nav-item">
-
-                                        </li>
+                                     
 
                                         <li className="nav-item">
-                                            <a href="#">RESOURCES<i className='bx bx-chevron-down'></i></a>
-                                            <ul className="dropdown-menu resorcesul">
+                                            <a href="#" className="nav-link">RESOURCES<i className='bx bx-chevron-down'></i></a>
+                                            <ul className="dropdown-menu">
                                                 <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
                                                 <li className="nav-item"><a className="nav-link" href="/podcast">Podcast</a></li>
                                             </ul>

@@ -103,6 +103,7 @@ export default function HybridWorkplaces() {
                               <option value="">---Select---</option>
                               <option value="The SLII Experience™ - Virtual - March 13th - 14th, 2023">The SLII Experience™ - Virtual - March 13th - 14th, 2023</option>
                               <option value="The SLII Experience™ T4T - March 15th - 16th, 2023">The SLII Experience™ T4T - March 15th - 16th, 2023</option>
+                              <option value="The SLII Experience™  - March 27th -28th, 2023">The SLII Experience™ - March 27th -28th, 2023</option>
                            </select>
                            <div className="help-block with-errors"></div>
                         </div>
