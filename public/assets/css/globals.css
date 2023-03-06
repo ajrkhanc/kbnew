@@ -1,3 +1,19 @@
+.article-content ul{
+  padding-left: 15px !important;
+}
+.article-content ul li{
+  list-style: disc;
+  display: list-item !important;
+}
+
+.article-content ol{
+  padding-left: 15px !important;
+}
+.article-content ol li{
+  list-style: decimal;
+  display: list-item !important;
+}
+
 .dblock .navbar-nav{ display: block !important; overflow: scroll; height: 78vh !important;}
 
 .dblock .navbar-nav li{margin: 0px !important; padding: 0px !important;}
