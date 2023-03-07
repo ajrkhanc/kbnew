@@ -24,7 +24,7 @@ function EbooksKB() {
 
                document.getElementById("showlabel").style.display = "block";
                window.setTimeout(function () {
-                   window.location.href = "https://ik.imagekit.io/byld/KB/pdf/conversational-capacity_zvlTG0Cxj.pdf"
+                   window.location.href = "conversational-capacity.pdf"
                }, 3000);
 
             } else {

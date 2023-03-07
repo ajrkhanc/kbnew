@@ -44,7 +44,7 @@ function EbooksKB() {
    return (
       <>
          <Head>
-            <title>Getting to the Sweet Spot of Effective Communication</title>
+            <title>Leader Trustworthiness and Employee Work Intentions: A Canonical Correlation Study</title>
             <meta name="description" content="Investing in learning and development of employees can be tough. Contact us for all general and non-sales enquiries and talk to our expert advisors and business counsellors to understand what program will suit your requirements best." />            
          </Head>
   
