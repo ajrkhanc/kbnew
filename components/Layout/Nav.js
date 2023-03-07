@@ -172,6 +172,8 @@ function Nav() {
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item"><a className="nav-link" href="/blog">Blog</a></li>
                                                 <li className="nav-item"><a className="nav-link" href="/podcast">Podcast</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="/ebooks">Ebooks</a></li>
+                                                <li class="nav-item"><a class="nav-link" href="/white-paper">White Paper</a></li>
                                             </ul>
                                         </li>
 
