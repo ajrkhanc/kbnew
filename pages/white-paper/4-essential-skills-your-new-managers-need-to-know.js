@@ -24,7 +24,7 @@ function EbooksKB() {
 
                document.getElementById("showlabel").style.display = "block";
                window.setTimeout(function () {
-                   window.location.href = "/pdf/ftm-Infographics.pdf"
+                   window.location.href = "/pdf/4-essential-skills-your-new-managers-need-to-know.pdf"
                }, 3000);
 
             } else {
@@ -44,10 +44,9 @@ function EbooksKB() {
    return (
       <>
          <Head>
-            <title>Complete Guide for First Time Managers</title>
+            <title>4 Essential Skills Your New Managers Need to Know</title>
             <meta name="description" content="Investing in learning and development of employees can be tough. Contact us for all general and non-sales enquiries and talk to our expert advisors and business counsellors to understand what program will suit your requirements best." />            
-         </Head> 
-  
+         </Head>
 
     <div id="REQUEST" className="contact-area pt-45 pb-25 themebg">
         <div className="container">
@@ -55,7 +54,7 @@ function EbooksKB() {
                 <div className="col-lg-12">
                 <div className='text-center pb-25'>
                     
-                    <h3 className='titleh2'>Complete Guide for First Time Managers</h3>
+                    <h3 className='titleh2'>4 Essential Skills Your New Managers Need to Know</h3>
                     <h3 className='titleh2'>Fill in your details to read more</h3>
                 </div>
                 <div className="contact-form">                  

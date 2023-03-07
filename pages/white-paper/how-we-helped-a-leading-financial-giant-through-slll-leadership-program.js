@@ -24,7 +24,7 @@ function EbooksKB() {
 
                document.getElementById("showlabel").style.display = "block";
                window.setTimeout(function () {
-                   window.location.href = "/pdf/ftm-Infographics.pdf"
+                   window.location.href = "/pdf/how-we-helped-a-leading-financial-giant-through-SLll-leadership-program.pdf"
                }, 3000);
 
             } else {
@@ -44,9 +44,9 @@ function EbooksKB() {
    return (
       <>
          <Head>
-            <title>Complete Guide for First Time Managers</title>
+            <title>How we helped a leading Financial giant through SLll</title>
             <meta name="description" content="Investing in learning and development of employees can be tough. Contact us for all general and non-sales enquiries and talk to our expert advisors and business counsellors to understand what program will suit your requirements best." />            
-         </Head> 
+         </Head>
   
 
     <div id="REQUEST" className="contact-area pt-45 pb-25 themebg">
@@ -55,7 +55,9 @@ function EbooksKB() {
                 <div className="col-lg-12">
                 <div className='text-center pb-25'>
                     
-                    <h3 className='titleh2'>Complete Guide for First Time Managers</h3>
+                    <h3 className='titleh2'>How we helped a leading Financial giant through SLll<sup>®</sup></h3>
+                    <h3 className='titleh2'>A renowned Financial service provider was looking for leadership training to upskill their managers in order to better navigate professional challenges. After all, only an empowered employee can bring results.</h3>
+                    <p>Each day we are having to invent new ways of working, new ways of interacting, new ways of living. We are having to be courageous, curious, agile, and gritty. We have to react almost hourly, on the fly, to new policies or rules that often were implemented without consideration of the impact they would have on us, without our voice at the table.</p>
                     <h3 className='titleh2'>Fill in your details to read more</h3>
                 </div>
                 <div className="contact-form">                  
@@ -96,6 +98,7 @@ function EbooksKB() {
             </div>
         </div>
     </div>
+
 </>
 )
 }

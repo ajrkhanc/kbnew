@@ -24,7 +24,7 @@ function EbooksKB() {
 
                document.getElementById("showlabel").style.display = "block";
                window.setTimeout(function () {
-                   window.location.href = "/pdf/ftm-Infographics.pdf"
+                   window.location.href = "/pdf/critical-skills-every-sales-manager-needs.pdf"
                }, 3000);
 
             } else {
@@ -44,18 +44,43 @@ function EbooksKB() {
    return (
       <>
          <Head>
-            <title>Complete Guide for First Time Managers</title>
+            <title>A new approach to creating a culture of success</title>
             <meta name="description" content="Investing in learning and development of employees can be tough. Contact us for all general and non-sales enquiries and talk to our expert advisors and business counsellors to understand what program will suit your requirements best." />            
-         </Head> 
+         </Head>   
   
+  <section>
+      <div className="img100">
+          <img src="/assets/img/critical-skills-every-sales-manager-needs.jpg"  alt="diversity-equity-inclusion-pov"/>
+      </div>
+  </section>          
+            
+ <div className="what-did-area pt-45">
+   <div className="container">
+      <div className="row row-eq-height">
+         <div className="col-lg-6 bgshd">
+            <div className="what-did-content">
+               <div className="section-title pt-20">                 
+                  <h2 className="titleh2">A new approach to creating a culture of success</h2>
+                  <p className="text-justify">
+                      Servant leaders have many things in common. Perhaps the most important is that they put their people first. But servant leadership extends beyond the leaders themselves. Organizations that want to embrace servant leadership need to support their leaders through skill development, knowledge, tools, and human resource systems and processes. They need to help their leaders understand their people and meet their needs. And ultimately, they must create the mindset to foster a culture shift that values people and results. In this collection of articles, we explore the concepts and paradigm shifts organizations must consider to become true servant leaders.
+                  </p>
+               </div>
+            </div>
+         </div>
+         <div className="col-lg-6">
+            <div className="img100">
+            <img src="/assets/img/critical-skills-every-sales-manager-needs1.jpg" alt="Images"/>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
 
-    <div id="REQUEST" className="contact-area pt-45 pb-25 themebg">
+    <div id="REQUEST" className="contact-area pt-45 pb-25 themebg mt-45">
         <div className="container">
             <div className="row">
                 <div className="col-lg-12">
                 <div className='text-center pb-25'>
-                    
-                    <h3 className='titleh2'>Complete Guide for First Time Managers</h3>
                     <h3 className='titleh2'>Fill in your details to read more</h3>
                 </div>
                 <div className="contact-form">                  
@@ -96,8 +121,8 @@ function EbooksKB() {
             </div>
         </div>
     </div>
-</>
-)
+    </>
+   )
 }
 
 export default EbooksKB

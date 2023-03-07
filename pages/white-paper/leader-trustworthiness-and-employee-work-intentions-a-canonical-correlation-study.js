@@ -23,8 +23,8 @@ function EbooksKB() {
                document.getElementById("showlabel").innerHTML = "Thank you for submitting your details. Our subject matter experts will connect you within 24 working hours.";
 
                document.getElementById("showlabel").style.display = "block";
-               window.setTimeout(function () {
-                   window.location.href = "/pdf/ftm-Infographics.pdf"
+               setTimeout(function() {
+                window.open("/pdf/leader-trustworthiness-and-employee-work-intentions-a-canonical-correlation-study.pdf", "_blank")
                }, 3000);
 
             } else {
@@ -44,9 +44,9 @@ function EbooksKB() {
    return (
       <>
          <Head>
-            <title>Complete Guide for First Time Managers</title>
+            <title>Leader Trustworthiness and Employee Work Intentions: A Canonical Correlation Study</title>
             <meta name="description" content="Investing in learning and development of employees can be tough. Contact us for all general and non-sales enquiries and talk to our expert advisors and business counsellors to understand what program will suit your requirements best." />            
-         </Head> 
+         </Head>
   
 
     <div id="REQUEST" className="contact-area pt-45 pb-25 themebg">
@@ -55,7 +55,7 @@ function EbooksKB() {
                 <div className="col-lg-12">
                 <div className='text-center pb-25'>
                     
-                    <h3 className='titleh2'>Complete Guide for First Time Managers</h3>
+                    <h3 className='titleh2'>Getting to the Sweet Spot of Effective Communication</h3>
                     <h3 className='titleh2'>Fill in your details to read more</h3>
                 </div>
                 <div className="contact-form">                  
