@@ -224,7 +224,7 @@ that goes a long way in a leadership journey!</p>
                 <div className='pt-45'>
                 <h3 className='h3white'>Ready To Get Started?</h3>
                 <p className='p-white'>
-                <strong>The SLII Experience™</strong>&nbsp;can be delivered face-to-face, virtually, or as a combination of face-to-face, virtual, and online learning modalities. Contact us today to learn more about how we can train your managers to be great leaders that others want to follow.
+                <strong>Self Leadership</strong>&nbsp;can be delivered face-to-face, virtually, or as a combination of face-to-face, virtual, and online learning modalities. Contact us today to learn more about how we can train your managers to be great leaders that others want to follow.
                 </p>
                 <div className="services-more-btn text-center">
                     <Link href="/get-started"><a className="default-btn-two btn-three">Talk To An Expert</a></Link>                  

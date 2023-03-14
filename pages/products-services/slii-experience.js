@@ -207,8 +207,8 @@ function TheSLIIExperience() {
                      <div className="section-title-two">                         
                         <h2 className="titleh2">Accomplish your business goals with Corporate Training Companies in India</h2>
                         <ul className="point3">
-                            <li><a target="_blank" href="http://blanchardinternational.co.in/pdf/The-SLII-Experience-Overview-MK0766.pdf">THE SLII EXPERIENCE OVERVIEW</a></li>
-                            <li><a target="_blank" href="http://blanchardinternational.co.in/pdf/The-SLII-EXP-Learning-Design-MK0772.pdf">THE SLII EXPERIENCE LEARNING DESIGN</a></li>
+                            <li><a target="_blank" href="http://blanchardinternational.co.in/pdf/The-SLII-Experience-Overview-MK0766.pdf">THE SLII EXPERIENCE™ OVERVIEW</a></li>
+                            <li><a target="_blank" href="http://blanchardinternational.co.in/pdf/The-SLII-EXP-Learning-Design-MK0772.pdf">THE SLII EXPERIENCE™ LEARNING DESIGN</a></li>
                             <li><a target="_blank" href="http://blanchardinternational.co.in/pdf/The-SLII-Experience-Sample-PW.pdf">SAMPLE PARTICIPANT WORKBOOK</a></li>
                             <li><a target="_blank" href="https://blanchardinternational.co.in/pdf/The-Power-of-SLII-Training-and-Coaching-MK0782.pdf">THE POWER OF SLII TRAINING AND COACHING</a></li>						 
                         </ul>
@@ -256,7 +256,7 @@ function TheSLIIExperience() {
                 <div className='pt-45'>
                 <h3 className='h3white'>Ready To Get Started?</h3>
                 <p className='p-white'>
-                   <strong>The Blanchard Management Essentials<sup>®</sup></strong> training can be delivered
+                   <strong>The SLII Experience™</strong> training can be delivered
                    face-to-face, virtually, or as a combination of face-to-face, virtual, and online learning
                    modalities. Contact us today to learn more about how we can train your managers to be great
                    leaders that others want to follow.
