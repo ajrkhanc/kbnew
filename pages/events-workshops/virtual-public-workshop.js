@@ -108,8 +108,7 @@ export default function VirtualPublicWorkshop() {
                                  <div className="form-group">
                                     <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                                        <option value="">Pick up any Slot*</option>
-                                       {/* <option value="Building Trust - Virtual - February 22nd, 2023">Building Trust - Virtual - February 22nd, 2023</option>                                        */}
-                                       <option value="The SLII Experience™ T4T March 13th - 16th, 2023">The SLII Experience™ T4T March 13th - 16th, 2023</option>
+                                       {/* <option value="Building Trust - Virtual - February 22nd, 2023">Building Trust - Virtual - February 22nd, 2023</option>*/}
                                        <option value="The SLII Experience™ - Face to Face March 27th - 28th, 2023">The SLII Experience™ - Face to Face March 27th - 28th, 2023</option>
                                        <option value="Blanchard Management Essentials - Virtual March 21st, 2023">Blanchard Management Essentials - Virtual March 21st, 2023</option>
                                        <option value="Self Leadership - Virtual, April 11th, 2023">Self Leadership - Virtual, April 11th, 2023</option>
@@ -172,18 +171,7 @@ export default function VirtualPublicWorkshop() {
                                  </div>
                               </div>
                            </div> */}
-                           <div className="col-sm-4">
-                              <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3>The SLII Experience™ T4T</h3>
-                                 <p>March 13th - 16th, 2023</p>
-                                 <div className='row eventsbottomarea2 text-center'>
-                                    <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                           
 
                            
 
