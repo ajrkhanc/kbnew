@@ -39,6 +39,19 @@ export default function PodCast() {
                         <div className="col-lg-12">
                             <div className="what-did-left-content">
                                 <div className="row row-eq-height eventsandworkshopbox">
+
+                                <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/becoming-an-impact-player-with-liz-wiseman.jpg" alt="Images" />
+                                            <h3>Becoming an Impact Player with Liz Wiseman</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/becoming-an-impact-player-with-liz-wiseman"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                     <div className="col-sm-4">
                                         <div className="choose-card">
                                             <img src="/assets/img/podcast/leadership-two-words-at-a-time-with-bill-treasurer.jpg" alt="Images" />
