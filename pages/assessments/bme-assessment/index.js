@@ -137,7 +137,7 @@ export default function EdgeManagerAssessment() {
 
                         <div className="row ascal">
                            <div className="col-sm-12">
-                              <h1 className="assesmenthead">BME and First Time Manager Tool</h1>
+                              <h1 className="assesmenthead">Attention Index for your Young and/or First Time Managers</h1>
                            </div>
                            <div className="clearfix"></div>
                            <div className="col">
@@ -152,15 +152,10 @@ export default function EdgeManagerAssessment() {
                            </div>
                            <div className="col">
                               <div className="ratess">
-                                 10= Do it very extremely well
+                                 10= Do it extremely well
                               </div>
                            </div>
-                           <div className="clearfix"></div>
-                           <div className="col-sm-12">
-                              <div className="assesmenthead2">
-                                 <h2>Attention Index for your Young and/or first time managers?</h2>
-                              </div>
-                           </div>
+                         
                         </div>
                      </div>
                   </div>
