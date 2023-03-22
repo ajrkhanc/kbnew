@@ -46,8 +46,8 @@ export default function result({ result }) {
 
 
             <Head>
-                <title>Become a Professional Coach Result</title>
-                <meta name="description" content="Coaching | Become a Professional Coach" />
+                <title>BME and First Time Manager Result</title>
+                <meta name="description" content="BME and First Time Manager" />
                 <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
             </Head>
 
