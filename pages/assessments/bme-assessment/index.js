@@ -167,6 +167,7 @@ export default function EdgeManagerAssessment() {
                               <div className="row">
 
                                  <div className='col-sm-12'>
+                                    <div className="formsbarassesment">
                                     <div className='fcol1 fcol1top'>
                                        <h2>
                                           01. How effectively the young (or First time) managers are dealing with former peers?
@@ -778,7 +779,7 @@ export default function EdgeManagerAssessment() {
                                           </div>
                                        </div>
                                     </div>
-
+                                    </div>
                                  </div>
                               </div>
                            </form>
