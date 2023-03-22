@@ -49,6 +49,7 @@ export default function result({ result }) {
                 <title>BME and First Time Manager Result</title>
                 <meta name="description" content="BME and First Time Manager" />
                 <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+               
             </Head>
 
 
@@ -62,14 +63,14 @@ export default function result({ result }) {
                 </div>
             </section>
 
-            <section id='demo' className='pbb-10 pll-20 prr-20'>
+            <section id='demo' className='pbb-10 pll-20 prr-20 paddingsall'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-sm-12'>
                             {
                                 result.slice(0, 1).map((results) => {
                                     return (
-                                        <h4 className="countertoph2 text-center resh">{results.name} - BME and First Time Manager Report</h4>
+                                        <h4 className="countertoph2 text-center resh">{results.name} - Report</h4>
                                     )
                                 })
                             }
@@ -83,8 +84,7 @@ export default function result({ result }) {
 
                                     var px = '%'
                                     var result1 = parseInt(results.q1) + parseInt(results.q2) + parseInt(results.q3) + parseInt(results.q4) + parseInt(results.q5) + parseInt(results.q6) + parseInt(results.q7) + parseInt(results.q8) + parseInt(results.q9) + parseInt(results.q10)
-                                   
-
+                                
                                     var overall = result1
                                     var overresult = overall
 
@@ -94,7 +94,7 @@ export default function result({ result }) {
                                     return (
                                         <>
                                             <div class="assessment-result-block">
-                                                <h3>Overall Score = <span className='rco'>{overallresult}</span></h3>
+                                                <h3>Overall Score = <span className='rco'>{overresult}</span></h3>
                                                 <div class="result-bar-wrapper">
                                                     {
                                                         (() => {

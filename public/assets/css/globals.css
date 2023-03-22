@@ -517,6 +517,12 @@
 }
 }
 
+@media (min-width:992px){
+  .paddingsall {
+    padding: 30px;
+}
+}
+
 .lpnewbannerp{
   padding: 5px !important;
   margin-top: 15px !important;
@@ -807,7 +813,7 @@
 }
 
 .rco {
-  color: #eb8023;
+  color: #2b70b3;
 }
 .resulttextt{
   color: #000;

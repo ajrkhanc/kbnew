@@ -1,5 +1,6 @@
 import Layout from '../components/Layout/Layout'
 import GenericLP from '../components/GenericLP/Layout'
+import Assesmments from '../components/Assesmment/Layout'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps, router }) {
@@ -44,9 +45,19 @@ else if (router.pathname.startsWith('/lp/self-leadership-training-lp')) {
 
 }
 
+else if (router.pathname.startsWith('/assessments')) {
+
+  return (
+      <Assesmments>
+          <Component {...pageProps} />
+      </Assesmments>
+  )
+
+}
+
 else {
   return (
-    <Layout>
+    <Layout>    
     <Component {...pageProps} />
     </Layout>
   )

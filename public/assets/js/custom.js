@@ -1,4 +1,4 @@
-(function($){'use strict';jQuery('.mean-menu').meanmenu({meanScreenWidth:"991"});$(window).on('scroll',function(){if($(this).scrollTop()>150){$('.navbar-area').addClass("sticky-nav");}
+(function($){'use strict';jQuery('.mean-menu').meanmenu({meanScreenWidth:"991"});$(window).on('scroll',function(){if($(this).scrollTop()>10){$('.navbar-area').addClass("sticky-nav");}
 else{$('.navbar-area').removeClass("sticky-nav");}});$(".side-nav-responsive .dot-menu").on("click",function(){$(".side-nav-responsive .container-max .container").toggleClass("active");});$('.banner-slider').owlCarousel({loop:true,items:1,margin:30,nav:false,dots:true,autoplay:true,autoplayHoverPause:true,})
 $('.banner-slider-two').owlCarousel({loop:true,items:1,margin:30,nav:false,dots:true,autoplay:true,autoplayHoverPause:true,})
 $('.services-slider').owlCarousel({loop:true,margin:30,nav:true,dots:false,autoplay:true,autoplayHoverPause:true,navText:["<i class='bx bx-chevron-left'></i>","<i class='bx bx-chevron-right'></i>"],responsive:{0:{items:1},768:{items:2},1000:{items:3},1200:{items:4}}})
