@@ -1,3 +1,8 @@
+.nofound{
+  text-align: center;
+    padding: 50px 0px;
+}
+
 .article-content ul{
   padding-left: 15px !important;
 }
@@ -634,3 +639,198 @@
 .podcastd p a{
   color: #97d700;;
 }
+
+
+
+/* BME assesment css */
+.formb0{
+  border: none;
+    padding: 0px;
+}
+.ascal{
+  margin: 0px;
+  margin-bottom:30px;
+}
+.ascal .col{
+  background: #97d700;
+  color: #fff;
+}
+.ascal .ratess{
+  padding: 10px 0px 4px 0px;
+}
+
+.assesmenthead{
+  font-size: 28px;
+    text-align: center;
+    color: #7bafd4;
+}
+
+.assesmenthead2 h2{
+  font-size: 23px;
+  text-align: center;
+  color: #97d700;
+  margin-top: 15px;
+}
+
+.fcol1top{
+  border-top: 1px solid #2a6db5;
+}
+.fcol1 {
+  padding: 0px 15px 15px 15px;
+  border-bottom: 1px solid #2a6db5;
+}
+
+.fcol1:nth-child(odd) {
+  background: #f5f5f5;
+  border-left: 1px solid #2a6db5;
+  border-right: 1px solid #2a6db5;
+}
+
+.fcol1:nth-child(even) {
+  border-left: 1px solid #2a6db5;
+  border-right: 1px solid #2a6db5;
+}
+
+.fcol1 h2 {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 17px 0px 10px 0px;
+  color: #1b6194;
+}
+
+.fcolmain {
+  display: inline-flex;
+  padding-right: 21px;
+}
+
+.fcolmain input {
+  accent-color: #3474af;
+  width: 18px;
+  height: 18px;
+  margin-top: 4px;
+}
+.fcolmain label {
+  padding-left: 10px;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.lastinp input {
+  width: 100%;
+  border: 2px solid #3373ae;
+  padding: 6px;
+  border-radius: 3px;
+  margin: 10px 0px 10px 0px;
+}
+
+.lastinp .assesmetmain {
+  width: 120px !important;
+  background: #3373ae;
+  color: #fff !important;
+  border: 0px !important;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+.btnnewc {
+  background: #2b70b3;
+  color: #fff !important;
+  border-radius: 30px;
+  padding: 5px 33px;
+  font-size: 18px;
+  border: 2px solid #2B70B3;
+  margin-top: 30px;
+  margin-bottom: 21px;
+}
+
+.resh {
+  font-size: 28px !important;
+  padding: 20px 0px 15px 0px !important;
+  margin: 0px !important;
+  color: #2A6DB5 !important;
+}
+
+.newtblc table{
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+
+.tablefbh {
+  background: #3373af;
+}
+.newtblc table tr th {
+  padding: 10px;
+  border: 1px solid #282A35;
+    border-collapse: collapse;
+}
+.newtblc table td {
+  padding: 10px;
+  border: 1px solid #282A35;
+    border-collapse: collapse;
+    color: black; 
+}
+
+.tablefbh th {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+}
+.yresultc span {
+  font-size: 24px;
+  color: #2a6db5 !important;
+}
+
+.assessment-result-block .result-bar-wrapper {
+  height: 30px;
+  border-radius: 10px;
+  background: #efecec;
+  border: 1px solid #9b9b9b;
+    margin-top: 6px;
+}
+
+.result-bar {
+  width: 20px;
+  height: 100%;
+  background: #b8b8b8;
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+  background-size: 30px 30px;
+  border-radius: 10px;
+}
+.assessment-result-block h3 {
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.rco {
+  color: #eb8023;
+}
+.resulttextt{
+  color: #000;
+  text-align: center;
+  padding: 12px 0px 20px 0px;
+}
+
+.bgred {
+	background-color: #dc3545 !important;
+  }
+  
+  .yellobg {
+	background-color: #ffc107 !important;
+  }
+  
+  .orangebg {
+	background-color: #5bc0de !important;
+  }
+  
+  .greenbg {
+	background-color: #28a745 !important;
+  }
+  
+  .skycolor {
+	background-color: #2196f3 !important;
+  }
