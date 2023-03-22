@@ -862,3 +862,15 @@
   border-radius: 10px;
   border: 5px solid #cfcfcf;
 }
+
+.massesment .footer-widget {
+  margin-bottom: 0px;
+}
+
+.massesment .footer-list-two{
+  margin-bottom: 0px;
+}
+
+.massesment .title{
+  font-size: 14px;
+}
