@@ -191,19 +191,19 @@ export default function result({ result }) {
                                     return (
                                         <>
                                             <div className='newtblc'>
-                                                <table>
+                                                <table className='w100c'>
                                                     <tr className='tablefbh'>                                                        
-                                                        <th>Questions</th>
-                                                        <th width="10%">Score</th>
-                                                        <th width="12%">Result</th>
+                                                        <th width="80%">Questions</th>
+                                                        {/* <th width="10%">Score</th> */}
+                                                        <th width="20%" colSpan="2" className='text-center'>Result</th>
                                                     </tr>
 
 
                                                     <tr>
                                                         
                                                         <td>How effectively the young (or First time) managers are dealing with former peers?</td>
-                                                        <td>{trust1}</td>
-                                                        <td>
+                                                        <td width="10%">{trust1}</td>
+                                                        <td  width="10%">
                                                             <div className='result-bar-wrapper'>
                                                                 {
                                                                     (() => {
@@ -431,8 +431,8 @@ export default function result({ result }) {
                                 <table>
                                     <tr className='tablefbh'>
                                         <th width="15%">Score Range</th>
-                                        <th>Interpretation of Score</th>
-                                        <th width="15%">Score (Out of 100)</th>
+                                        <th className='text-center'>Interpretation of Score</th>
+                                        <th width="16.5%">Score (Out of 100)</th>
                                     </tr>
 
 

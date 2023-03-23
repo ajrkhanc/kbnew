@@ -898,6 +898,7 @@
 .newtblc table {
   caption-side: bottom;
   border-collapse: collapse;
+  width: 100%;
 }
 
 .tablefbh {
