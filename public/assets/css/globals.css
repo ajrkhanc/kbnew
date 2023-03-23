@@ -910,6 +910,13 @@
   border: 1px solid #282A35;
   border-collapse: collapse;
 }
+.ffdf th{
+  font-size: 15px !important;
+}
+
+.tddds td{
+  font-size: 15px !important;
+}
 
 .newtblc table td {
   padding: 10px;

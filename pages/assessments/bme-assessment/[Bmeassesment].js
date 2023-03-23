@@ -428,11 +428,11 @@ export default function result({ result }) {
 <br></br>
 
                             <div className='newtblc'>
-                                <table>
-                                    <tr className='tablefbh'>
+                                <table className='tddds'>
+                                    <tr className='tablefbh ffdf'>
                                         <th width="15%">Score Range</th>
                                         <th className='text-center'>Interpretation of Score</th>
-                                        <th width="16.5%">Score (Out of 100)</th>
+                                        <th width="18%">Score (Out of 100)</th>
                                     </tr>
 
 
