@@ -180,7 +180,8 @@ function Contact() {
                      </div>
                      <div className="col-lg-6">
                         <div className="contact-map">
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14037.641983838512!2d77.0417085!3d28.406868!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbc57ecb265774cc5!2sBlanchard%20Research%20%26%20Training%20India%20LLP%20-%20Leadership%20Training!5e0!3m2!1sen!2sin!4v1642957525990!5m2!1sen!2sin" width="100%" allowfullscreen="" loading="lazy"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14031.549960658342!2d77.0706952!3d28.4528078!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d229e95e22137%3A0x784abf10032f4ea1!2sBYLD%20Group%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1679574883918!5m2!1sen!2sin" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                           
                         </div>
                      </div>
                   </div>
