@@ -8686,7 +8686,11 @@ form textarea {
 .map .title{
     margin-top: 8px;
 }
-
+.vvfv{
+    color: #fff;
+    font-size: 18px !important;
+    padding: 10px 0px 0px 0px;
+}
 .fsocils li a{
 background-color: #fff;
 line-height: 47px !important;

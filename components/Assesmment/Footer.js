@@ -36,11 +36,7 @@ function Footer() {
             <div className="container">
                <div className="row">
                   <div className='col-sm-12'>
-                     <div className="footer-widget footer-widget-color1">
-                        <div className="social-link-content">
-                           <h3 className="title">Follow Us On</h3>
-                        </div>
-                     </div>
+                  <h3 className="title vvfv">Follow Us On</h3>                     
                   </div>
                   <div className="col-sm-3">
                      <div className="footer-widget footer-widget-color1">
