@@ -202,7 +202,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How effectively the young (or First time) managers are dealing with former peers?</td>
-                                                        <td width="10%">{trust1}</td>
+                                                        <td width="10%" className='text-center'>{trust1}</td>
                                                         <td  width="10%">
                                                             <div className='result-bar-wrapper'>
                                                                 {
@@ -224,7 +224,7 @@ export default function result({ result }) {
                                                     <tr>
                                                  
                                                         <td>How well the young (or First time) managers balance the new workload?</td>
-                                                        <td>{trust2}</td>
+                                                        <td className='text-center'>{trust2}</td>
                                                         <td>
                                                         <div className='result-bar-wrapper'>
                                                         {
@@ -245,7 +245,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How clear are the goals being set by young (or First time) managers?</td>
-                                                        <td>{trust3}</td>
+                                                        <td className='text-center'>{trust3}</td>
                                                         <td>
                                                         <div className='result-bar-wrapper'>
                                                         {
@@ -266,7 +266,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How well the team chemistry being worked upon by young (or First time) managers?</td>
-                                                        <td>{trust4}</td>
+                                                        <td className='text-center'>{trust4}</td>
                                                         <td><div className='result-bar-wrapper'>
                                                         {
                                                                     (() => {
@@ -287,7 +287,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How well the young (or First time) managers inspire and motivate their team members to exceed expections?</td>
-                                                        <td>{trust5}</td>
+                                                        <td className='text-center'>{trust5}</td>
                                                         <td><div className='result-bar-wrapper'>
                                                         {
                                                                     (() => {
@@ -307,7 +307,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How well (Comfortable) are young (or First time) managers in terms of giving negative or consttuctive feedback?</td>
-                                                        <td>{trust6}</td>
+                                                        <td className='text-center'>{trust6}</td>
                                                         <td><div className='result-bar-wrapper'>
                                                         {
                                                                     (() => {
@@ -327,7 +327,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How well are the young (or First time) managers in holding coaching conversations?</td>
-                                                        <td>{trust7}</td>
+                                                        <td className='text-center'>{trust7}</td>
                                                         <td>
                                                         <div className='result-bar-wrapper'>
                                                         {
@@ -349,7 +349,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How effectively the young (or First time) managers are in communicating things clearly and effectively?</td>
-                                                        <td>{trust8}</td>
+                                                        <td className='text-center'>{trust8}</td>
                                                         <td>
                                                         <div className='result-bar-wrapper'>
                                                         {
@@ -371,7 +371,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How effectively the young (or First time) managers are in managing interpersonal conflict?</td>
-                                                        <td>{trust9}</td>
+                                                        <td className='text-center'>{trust9}</td>
                                                         <td>
                                                         <div className='result-bar-wrapper'>
                                                         {
@@ -393,7 +393,7 @@ export default function result({ result }) {
                                                     <tr>
                                                         
                                                         <td>How effectively the young (or First time) managers are in managing competing priorities?</td>
-                                                        <td>{trust10}</td>
+                                                        <td className='text-center'>{trust10}</td>
                                                         <td>
                                                         <div className='result-bar-wrapper'>
                                                         {
