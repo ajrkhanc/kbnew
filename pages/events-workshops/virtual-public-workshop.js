@@ -206,7 +206,7 @@ export default function VirtualPublicWorkshop() {
                            <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3 className="ptt10 mbb-0">Blanchard Management Essentials®</h3>
+                                 <h3 className="ptt10 mbb-0">Blanchard Management Essentials<sup>®</sup></h3>
                                  <p>April 21, 2023,</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
