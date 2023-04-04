@@ -121,7 +121,7 @@ export default function EdgeManagerAssessment() {
 
          <div id="results"></div>
          <Head>
-            <title>BME - Blanchard India</title>
+            <title>Blanchard Management Essentials - Blanchard India</title>
             <meta name="description" content="" />
             <link rel="icon" href="/favicon.ico" />
          </Head>
