@@ -13,7 +13,7 @@ export default function Elearning() {
             <div className="inner-banner books-head-headbg">
                 <div className="container">
                     <div className="inner-title text-center">
-                        <h3>Ebooks</h3>
+                        <h3>Elearning</h3>
                     </div>
                 </div>
                 <div className="inner-lines">
