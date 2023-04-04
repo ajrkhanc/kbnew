@@ -780,9 +780,18 @@
 
 
 /* BME assesment css */
+.bgcc{
+  background: #f8f8f8;
+}
 .formb0 {
   border: none;
   padding: 0px;
+  padding-bottom: 15px;
+}
+.mshdc{
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border-radius: 10px;
+background-color: #fff;
 }
 
 .ascal {
@@ -800,13 +809,13 @@
 }
 
 .assesmenthead {
-  font-size: 28px;
+  font-size: 24px;
   text-align: center;
   color: #7bafd4;
 }
 
 .assesmenthead2 h2 {
-  font-size: 23px;
+  font-size: 28px;
   text-align: center;
   color: #97d700;
   margin-top: 15px;
@@ -1017,15 +1026,15 @@
 }
 
 .formsbarassesment::-webkit-scrollbar {
-  background-color: #cfcfcf;
+  background-color: #97d700;
   border-radius: 9px;
   width: 18px;
 }
 
 .formsbarassesment::-webkit-scrollbar-thumb {
-  background-color: grey;
+  background-color: #fff;
   border-radius: 10px;
-  border: 5px solid #cfcfcf;
+  border: 5px solid #71b0d6;
 }
 
 .massesment .footer-widget {
