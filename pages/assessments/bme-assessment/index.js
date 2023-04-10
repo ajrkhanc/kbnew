@@ -155,8 +155,8 @@ export default function EdgeManagerAssessment() {
             <div className="contact-area pt-45 pb-40">
                <div className="container">
                   <div className="row">
-                     <div className="col-sm-1"></div>
-                     <div className="col-sm-10 mshdc">
+                     {/* <div className="col-sm-1"></div> */}
+                     <div className="col-sm-12 mshdc">
                         <div className="row ascal">
                            <div className="col-sm-12">
                               {/* <div className="assesmenthead2">

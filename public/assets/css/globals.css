@@ -834,11 +834,13 @@ background-color: #fff;
   background: #f5f5f5;
   border-left: 1px solid #2a6db5;
   border-right: 1px solid #2a6db5;
+  text-align: center;
 }
 
 .fcol1:nth-child(even) {
   border-left: 1px solid #2a6db5;
   border-right: 1px solid #2a6db5;
+  text-align: center;
 }
 
 .fcol1 h2 {
@@ -851,7 +853,7 @@ background-color: #fff;
 
 .fcolmain {
   display: inline-flex;
-  padding-right: 35px;
+  padding: 17px;
 }
 
 .fcolmain input {
