@@ -128,18 +128,37 @@ export default function EdgeManagerAssessment() {
          <div>
 
 
-
             <div className="contact-area pt-45 pb-40 bgcc">
+               <div className="container">
+                  <div className="row">
+                     <div className="col-sm-1"></div>
+                     <div className="col-sm-10">
+                        <div className="assesmenthead2">
+                           <h2>The Blanchard Management Essentials<sup>®</sup> Assessment</h2>
+                        </div>
+                        <h1 className="assesmenthead">ACCELERATE YOUR MANAGERS’ SUCCESS WITH A TRANSFORMATIVE MANAGEMENT TRAINING PROGRAM</h1>
+                        <p className="text-center">
+                           Most new managers struggle, and the cost of that is significant: high turnover, low morale, subpar productivity, and more. It’s because most don’t receive the essential management skills training to succeed. That’s why we created <b>Blanchard Management Essentials<sup>®</sup> :</b> a transformational leadership training program for new managers and those who need to sharpen the essential skills needed to build positive relationships with team members, inspire engagement, and drive productivity.
+                        </p>
+                        <p className="text-center">
+                           Take the first step by completing the self-assessment below. This ten-question quiz reveals your tendencies when it comes to build positive relationships with team , inspire engagement, and drive productivity.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div className="contact-area pt-45 pb-40">
                <div className="container">
                   <div className="row">
                      <div className="col-sm-1"></div>
                      <div className="col-sm-10 mshdc">
                         <div className="row ascal">
                            <div className="col-sm-12">
-                              <div className="assesmenthead2">
+                              {/* <div className="assesmenthead2">
                                  <h2>The Blanchard Management Essentials<sup>®</sup></h2>
                               </div>
-                              <h1 className="assesmenthead">Attention Index for your New Managers</h1>
+                              <h1 className="assesmenthead">Attention Index for your New Managers</h1> */}
                            </div>
                            <div className="clearfix"></div>
                            <div className="col">
@@ -787,7 +806,7 @@ export default function EdgeManagerAssessment() {
                   <div className="row">
                      <div className="col-sm-1"></div>
                      <div className="col-sm-10">
-                        
+
                      </div>
 
                   </div>

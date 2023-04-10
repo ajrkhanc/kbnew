@@ -114,7 +114,7 @@ export default function VirtualPublicWorkshop() {
                                        <option value="Blanchard Management Essentials® - Virtual, April 21st, 2023">Blanchard Management Essentials® - Virtual, April 21st, 2023</option>
                                        <option value="The SLII Experience™ - Virtual, May 8th to 9th, 2023">The SLII Experience™ - Virtual, May 8th to 9th, 2023</option>
                                        <option value="The SLII Experience™ - T4T, May 10th to 11th, 2023">The SLII Experience™ - T4T, May 10th to 11th, 2023</option>   
-
+                                          <option value="Coaching Essentials®, May 26th 2023">Coaching Essentials®, May 26th 2023</option>   
                                     </select>
                                  </div>
                               </div>
@@ -234,6 +234,19 @@ export default function VirtualPublicWorkshop() {
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
                                  <h3>The SLII Experience™ - T4T</h3>
                                  <p>May 10th to 11th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Coaching Essentials<sup>®</sup></h3>
+                                 <p>May 26th 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
                                        <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>

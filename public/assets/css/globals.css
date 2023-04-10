@@ -788,11 +788,11 @@
   padding: 0px;
   padding-bottom: 15px;
 }
-.mshdc{
+/* .mshdc{
   box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
   border-radius: 10px;
 background-color: #fff;
-}
+} */
 
 .ascal {
   margin: 0px;
@@ -1018,14 +1018,14 @@ background-color: #fff;
 
 
 
-.formsbarassesment {
+/* .formsbarassesment {
   height: 550px;
   overflow: auto;
   overflow-y: scroll !important;
   padding: 0px 20px 0 0px;
-}
+} */
 
-.formsbarassesment::-webkit-scrollbar {
+/* .formsbarassesment::-webkit-scrollbar {
   background-color: #97d700;
   border-radius: 9px;
   width: 18px;
@@ -1035,7 +1035,7 @@ background-color: #fff;
   background-color: #fff;
   border-radius: 10px;
   border: 5px solid #71b0d6;
-}
+} */
 
 .massesment .footer-widget {
   margin-bottom: 0px;
