@@ -131,18 +131,22 @@ export default function EdgeManagerAssessment() {
             <div className="contact-area pt-45 pb-40 bgcc">
                <div className="container">
                   <div className="row">
-                     <div className="col-sm-1"></div>
-                     <div className="col-sm-10">
+                     
+                     <div className="col-sm-6">
                         <div className="assesmenthead2">
                            <h2>The Blanchard Management Essentials<sup>®</sup> Assessment</h2>
                         </div>
                         <h1 className="assesmenthead">ACCELERATE YOUR MANAGERS’ SUCCESS WITH A TRANSFORMATIVE MANAGEMENT TRAINING PROGRAM</h1>
-                        <p className="text-center">
-                           Most new managers struggle, and the cost of that is significant: high turnover, low morale, subpar productivity, and more. It’s because most don’t receive the essential management skills training to succeed. That’s why we created <b>Blanchard Management Essentials<sup>®</sup> :</b> a transformational leadership training program for new managers and those who need to sharpen the essential skills needed to build positive relationships with team members, inspire engagement, and drive productivity.
+                        <p className="text-justify">
+                        Most new managers struggle, and the cost of that is significant: high turnover, low morale, subpar productivity, and more. It’s because most don’t receive the essential management skills training to succeed. That’s why we created <b>Blanchard Management Essentials<sup>®</sup></b> Assessment : a transformational leadership training assessment for new managers / First time Managers and those who need to sharpen the essential skills.
                         </p>
-                        <p className="text-center">
-                           Take the first step by completing the self-assessment below. This ten-question quiz reveals your tendencies when it comes to build positive relationships with team , inspire engagement, and drive productivity.
+                        <p className="text-justify">
+                        Take the first step by completing the self-assessment below. This ten-question quiz reveals your tendencies when it comes to build positive relationships with team , inspire engagement, and drive productivity.
                         </p>
+                     </div>
+
+                     <div className="col-sm-6">
+                     <img src="/assets/img/bme-asssimg.jpg" alt="Images" />
                      </div>
                   </div>
                </div>
