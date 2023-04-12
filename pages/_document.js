@@ -23,29 +23,40 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <meta charset="utf-8" />            
-            <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>            
-            <link rel="icon" href="/favicon.ico" />  
-            <meta name="facebook-domain-verification" content="aequc18jzotzx1fcbz3rfx06pu7tzz" />
-            <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon"/>          
-            <link rel="stylesheet" href="/assets/css/bootstrap.min.css"/>      
-            <link rel="stylesheet" href="/assets/fonts/flaticon.css"/>
-            <link rel="stylesheet" href="/assets/css/meanmenu.css"/>
-            <link rel="stylesheet" href="/assets/css/boxicons.min.css"/> 
-            <link rel="stylesheet" href="/assets/css/nice-select.min.css"/>
-            <link rel="stylesheet" href="/assets/css/style.css"/>
-            <link rel="stylesheet" href="/assets/css/responsive.css"/>
-            <link rel="stylesheet" href="/assets/css/globals.css"/>
-            <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" /> 
-            <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />   
-     
+          <meta charset="utf-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+          <link rel="icon" href="/favicon.ico" />
+          <meta name="facebook-domain-verification" content="aequc18jzotzx1fcbz3rfx06pu7tzz" />
+          <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+          <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+          <link rel="stylesheet" href="/assets/fonts/flaticon.css" />
+          <link rel="stylesheet" href="/assets/css/meanmenu.css" />
+          <link rel="stylesheet" href="/assets/css/boxicons.min.css" />
+          <link rel="stylesheet" href="/assets/css/nice-select.min.css" />
+          <link rel="stylesheet" href="/assets/css/style.css" />
+          <link rel="stylesheet" href="/assets/css/responsive.css" />
+          <link rel="stylesheet" href="/assets/css/globals.css" />
+          <link rel="stylesheet" type="text/css" charset="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+          <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z1T5CNVYDT"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                    window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z1T5CNVYDT'); 
+                `,
+            }}
+          />
 
 
-   
-      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26893767-1"></script>
-      
-      <script
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26893767-1"></script>
+
+          <script
             dangerouslySetInnerHTML={{
               __html: `
               window.dataLayer = window.dataLayer || [];
@@ -57,14 +68,15 @@ class MyDocument extends Document {
             }}
           />
 
-          
-          
 
-        {/* Global site tag (gtag.js) - Google Ads: 370688250 */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-370688250"></script>
-        <script
+
+
+          {/* Global site tag (gtag.js) - Google Ads: 370688250 */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-370688250"></script>
+          <script
             dangerouslySetInnerHTML={{
-              __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-370688250');`,}}
+              __html: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-370688250');`,
+            }}
           />
 
           <script
@@ -79,7 +91,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             }}
           />
 
-<script
+          <script
             dangerouslySetInnerHTML={{
               __html: `
                window.__lo_site_id = 314174;
@@ -92,15 +104,15 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             }}
           />
 
-     
+
         </Head>
         <body>
           <Main />
           <NextScript />
-          <script src="/assets/js/jquery.min.js"></script>       
-          <script src="/assets/js/meanmenu.js"></script>        
+          <script src="/assets/js/jquery.min.js"></script>
+          <script src="/assets/js/meanmenu.js"></script>
           <script src="/assets/js/custom.js"></script>
-       
+
 
           <script
             dangerouslySetInnerHTML={{
