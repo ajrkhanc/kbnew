@@ -17,18 +17,18 @@ import  moment from 'moment'
   
 
 export async function getServerSideProps(context) {
-   const post5 = await fetch('https://kbblogs.vercel.app/api/posts')
+   const post5 = await fetch('https://kbblogs-6s96.onrender.com/api/posts')
    const posts5 = await post5.json()
 
-   const cat = await fetch('https://kbblogs.vercel.app/api/categories')
+   const cat = await fetch('https://kbblogs-6s96.onrender.com/api/categories')
    const cats = await cat.json()
 
 
    const posturl = context.params.blogsSlug;
-   const res = await fetch(`https://kbblogs.vercel.app/api/post/${posturl}`)
+   const res = await fetch(`https://kbblogs-6s96.onrender.com/api/post/${posturl}`)
    const posts = await res.json()
 
-   const getfeedback = await fetch(`https://kbblogs.vercel.app/api/posts/feed/${posturl}`)
+   const getfeedback = await fetch(`https://kbblogs-6s96.onrender.com/api/posts/feed/${posturl}`)
    console.log(getfeedback)
    const postfeedback = await getfeedback.json()
 

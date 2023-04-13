@@ -8,7 +8,7 @@ import Image from 'next/image'
 export async function getServerSideProps(context) {
     const caturl = context.params.Bmeassesment;
 
-    const res = await fetch(`https://kbblogs.vercel.app/api/bme-assessment/${caturl}`)
+    const res = await fetch(`https://kbblogs-6s96.onrender.com/api/bme-assessment/${caturl}`)
     const result = await res.json()
     return {
         props: {
