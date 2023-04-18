@@ -44,7 +44,7 @@ function EbooksKB() {
    return (
       <>
          <Head>
-            <title>3 Keys to Creating a Highly Productive Work Culture</title>
+            <title>Measuring the Impact and ROI of Leadership Training</title>
             <meta name="description" content="Investing in learning and development of employees can be tough. Contact us for all general and non-sales enquiries and talk to our expert advisors and business counsellors to understand what program will suit your requirements best." />            
          </Head>
             
@@ -52,7 +52,12 @@ function EbooksKB() {
     <div id="REQUEST" className="contact-area pt-45 pb-25 themebg">
         <div className="container">
             <div className="row">
-                <div className="col-lg-12">
+               <div className="col-sm-5">
+                  <div className="ebbokshd">
+                  <img src="/assets/img/ebook1.jpg" alt="Images" />
+                  </div>
+               </div>
+                <div className="col-sm-7">
                 <div className='text-center pb-25'>
                     
                     <h3 className='titleh2'>Measuring the Impact and ROI of Leadership Training</h3>
@@ -83,7 +88,7 @@ function EbooksKB() {
                         </div>
 
                         <div className="col-sm-12 col-md-12">
-                           <input id="submitbuttonform" className="default-btn btn-bg1 disabled" type="submit" value="Send Message" />
+                           <input id="submitbuttonform" className="default-btn btn-bg1 disabled" type="submit" value="Download Now" />
                            <div id="msgSubmit" className="h3 text-center hidden"></div>
                            <div className="clearfix"></div>
                            <p id="showlabel" style={{ display: "none" }}></p>

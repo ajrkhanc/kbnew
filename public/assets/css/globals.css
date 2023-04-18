@@ -1060,3 +1060,13 @@ background-color: #fff;
   border: 1px solid #9b9b9b;
   margin-top: 6px;
 }
+
+.ebbokshd{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.ebbokshd img{
+  width: 100% !important;
+  padding: 10px;
+  background-color:#37a8c8;
+}
