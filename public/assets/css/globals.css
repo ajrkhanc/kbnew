@@ -1072,6 +1072,7 @@ background-color: #fff;
 .fcolmain span{
   font-size: 12px;
     color: black;
+    display: block;
 }
 
 .assamet .fcolmain{
