@@ -104,6 +104,34 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             }}
           />
 
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              {
+                "@context": "https://schema.org",
+                "@type": "Corporation",
+                "name": "Blanchard Research & Training India",
+                "alternateName": "Blanchard India",
+                "url": "https://blanchardinternational.co.in/",
+                "logo": "https://blanchardinternational.co.in/assets/img/kblogo.png",
+                "sameAs": [
+                  "https://www.facebook.com/blanchardresearchandtrainingindia",
+                  "https://twitter.com/Blanchard_India",
+                  "https://www.instagram.com/blanchard_research_india/",
+                  "https://www.youtube.com/@BlanchardInternationalIndia",
+                  "https://www.linkedin.com/company/blanchard-research-and-training-india/",
+                  "https://in.pinterest.com/blanchardind/",
+                  "https://soundcloud.com/user-515979600",
+                  "https://www.tumblr.com/blanchardindia",
+                  "https://en.wikipedia.org/w/index.php?title=Special:Homepage&source=personaltoolslink&namespace=-1",
+                  "https://github.com/blanchardinternationalindia",
+                  "https://blanchardinternational.co.in/"
+                ]
+              }
+          `,
+            }}
+          />
+
 
         </Head>
         <body>
