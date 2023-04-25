@@ -29,7 +29,7 @@ export default function EdgeManagerAssessment() {
 
 
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'https://kbblogs-6s96.onrender.com/api/bme-assessment');
+      xhr.open('POST', 'https://kbblogs.vercel.app/api/bme-assessment');
       xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
       xhr.send('q1=' + q1 +
          '&q2=' + q2 +
