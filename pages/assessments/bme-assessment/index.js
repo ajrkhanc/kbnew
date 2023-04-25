@@ -167,7 +167,7 @@ export default function EdgeManagerAssessment() {
                            <div className="clearfix"></div>
                            {/* <div className="col">
                               <div className="ratess borrr">
-                                 0 = NA (Not Applicable)
+                                 0 = NA Not Applicable
                               </div>
                            </div>
                            <div className="col">
@@ -196,7 +196,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq1" value="0" id="bmeq1a" required />
                                              <label for="bmeq1a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -258,7 +258,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq2" value="0" id="bmeq2a" required />
                                              <label for="bmeq2a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -320,7 +320,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq3" value="0" id="bmeq3a" required />
                                              <label for="bmeq3a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -382,7 +382,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq4" value="0" id="bmeq4a" required />
                                              <label for="bmeq4a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -444,7 +444,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq5" value="0" id="bmeq5a" required />
                                              <label for="bmeq5a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -506,7 +506,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq6" value="0" id="bmeq6a" required />
                                              <label for="bmeq6a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -568,7 +568,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq7" value="0" id="bmeq7a" required />
                                              <label for="bmeq7a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -630,7 +630,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq8" value="0" id="bmeq8a" required />
                                              <label for="bmeq8a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -692,7 +692,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq9" value="0" id="bmeq9a" required />
                                              <label for="bmeq9a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
@@ -754,7 +754,7 @@ export default function EdgeManagerAssessment() {
                                           <div className='fcolmain'>
                                              <input type="radio" name="bmeq10" value="0" id="bmeq10a" required />
                                              <label for="bmeq10a">0</label><br></br>
-                                             <span>0 = NA <br></br>(Not Applicable)</span>
+                                             <span>0 = NA <br></br>Not Applicable</span>
                                           </div>
 
                                           <div className='fcolmain'>
