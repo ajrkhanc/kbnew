@@ -104,7 +104,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
             }}
           />
 
-          <script
+          <script type="application/ld+json"
             dangerouslySetInnerHTML={{
               __html: `
               {
