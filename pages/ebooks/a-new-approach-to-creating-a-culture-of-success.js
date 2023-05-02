@@ -24,7 +24,7 @@ function EbooksKB() {
 
                document.getElementById("showlabel").style.display = "block";
                window.setTimeout(function () {
-                   window.location.href = "/pdf/critical-skills-every-sales-manager-needs.pdf"
+                   window.location.href = "/pdf/blanchard-servant-leadership-perspectives.pdf"
                }, 3000);
 
             } else {

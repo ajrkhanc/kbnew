@@ -77,6 +77,20 @@ export default function Elearning() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/a-new-approach-to-creating-a-culture-of-success.jpg" alt="Images" />
+                                            <h3>A new approach to creating a culture of success</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/ebooks/a-new-approach-to-creating-a-culture-of-success">
+                                                        <a className="default-btn-two">Read eBook<i className="bx bx-right-arrow-alt"></i></a>
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/a-jump-start-for-virtual-facilitation-3.jpg" alt="Images" />
                                             <h3>A Jump Start For Virtual Facilitation</h3>
                                             <div className='row text-center eventsbottomarea2'>
