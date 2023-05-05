@@ -11,6 +11,11 @@ module.exports = {
       source: '/events-workshops/program-experience-webinar1/',
       destination: '/events-workshops',
       permanent: true,
+    },
+    {
+      source: '/assessments/bme-assessment',
+      destination: '/assessments/bme-assessment-m',
+      permanent: true,
     }
 
   ]

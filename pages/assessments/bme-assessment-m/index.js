@@ -72,7 +72,7 @@ export default function EdgeManagerAssessment() {
                   '&assessment=' + Assessment)
 
                window.setTimeout(function () {
-                  window.location.href = `/assessments/bme-assessment/${newnameurl}`
+                  window.location.href = `/assessments/bme-assessment-m/${newnameurl}`
                }, 2500);
 
             }
