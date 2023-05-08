@@ -132,7 +132,7 @@ export default function BlanchardGenericLPNew() {
          <script
             dangerouslySetInnerHTML={{
               __html: `
-              var deadline = new Date("feb 22, 2023 09:00:00").getTime();
+              var deadline = new Date("june 30, 2023 09:30:00").getTime();
 
 var x = setInterval(function() {
 
@@ -295,7 +295,7 @@ if (t < 0) {
                             
                             <h4 className='landingpagesbannerh4 textsecondcolor textccx'>Team Leadership - Virtual Workshop</h4>
                             <h5 className="sech5">February 22nd, 2023</h5>
-                            <h5 className="sech52">9:00 AM to 5:00 PM</h5>
+                            <h5 className="sech52">9:30 AM to 1:00 PM</h5>
                              <div className="daysca">
 
                              <div className="ecdays smf">
