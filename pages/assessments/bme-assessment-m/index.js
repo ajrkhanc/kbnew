@@ -49,7 +49,6 @@ export default function EdgeManagerAssessment() {
       );
 
       xhr.onreadystatechange = function () {
-
          if (xhr.status == 200) {
             // document.getElementById("formreset").reset()
             var data = JSON.parse(xhr.responseText);
