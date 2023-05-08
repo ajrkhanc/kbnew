@@ -294,7 +294,7 @@ if (t < 0) {
                         <div className="inner-title text-center">
                             
                             <h4 className='landingpagesbannerh4 textsecondcolor textccx'>Team Leadership - Virtual Workshop</h4>
-                            <h5 className="sech5">February 22nd, 2023</h5>
+                            <h5 className="sech5">June 30th, 2023</h5>
                             <h5 className="sech52">9:30 AM to 1:00 PM</h5>
                              <div className="daysca">
 
