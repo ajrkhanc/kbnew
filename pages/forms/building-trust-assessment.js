@@ -113,7 +113,7 @@ export default function EdgeSelfAssessment() {
                   <div className="row">
                      <div className="col-lg-12">
                         <div className="contact-form">
-                        <form id="contactForm" method="post" onSubmit={registerUser}>
+                        <form id="contactForm" className="radionbtnm" method="post" onSubmit={registerUser}>
                               <div className="row">
                                  <div className="col-lg-6">
                                     <div className="form-group">
