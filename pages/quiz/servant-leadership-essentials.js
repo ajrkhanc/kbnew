@@ -121,8 +121,8 @@ export default function EdgeManagerAssessment() {
                           
                         </div>
                      </div>
-<br></br>
-                     <div className="col-sm-12 mshdc">
+
+                     <div className="col-sm-12 mshdc pt-45">
                         <div className="formb0">
                            <form id="contactForm" name="contactForm">
                               <div className="row">
