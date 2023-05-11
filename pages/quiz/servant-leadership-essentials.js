@@ -100,21 +100,25 @@ export default function EdgeManagerAssessment() {
                         </div>
                            <div className="highrating">
                               <div className="ratess borrr">
-                                 1 = Never
+                              1 = Almost Never
                               </div>
                               <div className="ratess borrr">
-                                 2 = Rarely
+                              2 = Infrequently
                               </div>
                               <div className="ratess borrr">
-                                 3 = Frequently
+                              3 = Occasionally
+                              </div>
+                              <div className="ratess borrr">
+                              4 = Sometimes
+                              </div>
+                              <div className="ratess borrr">
+                              5 = Almost Always
                               </div>
                               <div className="ratess">
-                                 4 = Always
+                              6 = Always
                               </div>
                            </div>
-                           <p className="mset">
-                              Rate how often you display these behaviors for each attribute of a high-involvement change mindset.
-                           </p>
+                          
                         </div>
                      </div>
 
