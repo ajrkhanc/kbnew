@@ -109,8 +109,6 @@ export default function Home() {
                                             <p class="feedbackcolor" id="response"></p>
                                         </div>
                                     </div>
-
-
                                 </form>
                             </div>
                         </div>

@@ -2,22 +2,27 @@ import Link from 'next/link'
 import Head from 'next/head'
 import  moment from 'moment'
 
-export async function getServerSideProps() {
+export async function getServerSideProps(context) {
    const res = await fetch('https://kbblogs.vercel.app/api/posts')
    const posts = await res.json()
 
    const cat = await fetch('https://kbblogs.vercel.app/api/categories') 
    const cats = await cat.json()
 
+   const caturl = context.params.blogCat;
+    const catres = await fetch(`https://kbblogs.vercel.app/api/posts/category/${caturl}`)
+    const catposts = await catres.json()
+
    return {
      props: {
        posts, 
-       cats,    
+       cats,
+       catposts    
      },
    }
  }
 
-export default function index({posts, cats}) {
+export default function index({posts, cats, catposts}) {
   
   return (
     <>
@@ -38,7 +43,7 @@ export default function index({posts, cats}) {
             <div className="row">
                
             {
-             posts.map((getpost)=>{
+             catposts.map((getpost)=>{
                  return(
                     <div className="col-sm-6">
                       <div className="blog-item">
@@ -99,8 +104,9 @@ export default function index({posts, cats}) {
                      </ul>
                   </div> 
                </div>
+           
                
-             
+          
                
                <div className="side-bar-widget">
                   <h3 className="title">Resources</h3>

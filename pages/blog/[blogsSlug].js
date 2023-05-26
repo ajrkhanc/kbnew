@@ -155,7 +155,7 @@ const singleblog = ({ posts, posts5, cats, postfeedback }) => {
                            {
                            cats.map((getats)=>{
                               return(
-                                 <li><a href="#">{getats.Name}</a></li>
+                                 <li><a href={`/blog/category/${getats.Caturl}`}>{getats.Name}</a></li>
                               )
                            })
                            }
