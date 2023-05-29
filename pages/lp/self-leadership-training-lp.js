@@ -183,7 +183,7 @@ if (t < 0) {
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="email" name="email" id="email" className="form-control" data-error="Please Enter Your Email" placeholder="Your Email*" required/>
+                              <input type="email" name="email" id="email" className="form-control" data-error="Please Enter Your Email" placeholder="Work Email/Email*" required/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>

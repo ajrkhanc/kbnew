@@ -76,7 +76,7 @@ export default function BlanchardGenericLPNew() {
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="email" name="email" id="email" className="form-control" data-error="Please Enter Your Email" placeholder="Your Email*" required/>
+                              <input type="email" name="email" id="email" className="form-control" data-error="Please Enter Your Email" placeholder="Work Email/Email*" required/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>
@@ -283,7 +283,7 @@ export default function BlanchardGenericLPNew() {
                                 <div className="col-md-4">
                                 <div className="form-group">
                                     <input type="text" name="name" id="name" className="form-control" data-error="Please Enter Your Name" placeholder="Your Name*" required/>
-                                    <input type="email" name="email" id="email" className="form-control" data-error="Please Enter Your Email" placeholder="Your Email*" required/>
+                                    <input type="email" name="email" id="email" className="form-control" data-error="Please Enter Your Email" placeholder="Work Email/Email*" required/>
                                 </div>
                                 </div>
       
@@ -414,7 +414,7 @@ export default function BlanchardGenericLPNew() {
                                  </div>
                                  <div className="col-lg-6">
                                     <div className="form-group">
-                                       <input type="email" name="leadsquared_EmailAddress" id="leadsquared_EmailAddress" className="form-control" placeholder="Your Email*" required />
+                                       <input type="email" name="leadsquared_EmailAddress" id="leadsquared_EmailAddress" className="form-control" placeholder="Work Email/Email*" required />
 
                                     </div>
                                  </div>

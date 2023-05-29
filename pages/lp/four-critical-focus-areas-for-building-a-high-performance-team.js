@@ -74,7 +74,7 @@ export default function FourCriticalFocusAreasforBuildingaHighPerformanceTeam() 
                         </div>
                         <div className="col-lg-6">
                            <div className="form-group">
-                              <input type="email" name="email" id="email" className="form-control" required="" data-error="Please Enter Your Email" placeholder="Your Email*"/>
+                              <input type="email" name="email" id="email" className="form-control" required="" data-error="Please Enter Your Email" placeholder="Work Email/Email*"/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>

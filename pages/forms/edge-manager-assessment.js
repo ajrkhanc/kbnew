@@ -139,7 +139,7 @@ export default function EdgeManagerAssessment() {
                                  </div>
                                  <div className="col-lg-6">
                                     <div className="form-group">
-                                       <input type="email" name="emailid" id="emailid" className="form-control" placeholder="Your Email*" required />
+                                       <input type="email" name="emailid" id="emailid" className="form-control" placeholder="Work Email/Email*" required />
 
                                     </div>
                                  </div>

@@ -75,7 +75,7 @@ export default function BlanchardManaE() {
                      </div>
                      <div className="col-lg-6">
                         <div className="form-group">
-                           <input type="email" name="email" id="email" className="form-control" placeholder="Your Email*" required />
+                           <input type="email" name="email" id="email" className="form-control" placeholder="Work Email/Email*" required />
                            <div className="help-block with-errors"></div>
                         </div>
                      </div>
