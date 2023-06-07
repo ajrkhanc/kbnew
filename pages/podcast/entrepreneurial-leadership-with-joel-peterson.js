@@ -5,7 +5,7 @@ export default function PodCastinner() {
     return (
         <>
         <Head>
-        <title>Podcast - Beating Burnout with Christina Maslach</title>
+        <title>Podcast - Entrepreneurial Leadership with Joel Peterson</title>
         <meta name="description" content="Hear Christina Maslach talk about how to recognize the signs of employee burnout and how to combat the issue to promote increased productivity and health."/>
         <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -18,14 +18,14 @@ export default function PodCastinner() {
                         <div className="row row-eq-height eventsandworkshopbox">
                             <div className="col-sm-8">
                                 <div className="podcastd">
-                                <h3>Beating Burnout with Christina Maslach</h3>
-                                <iframe allowfullscreen="" height="192" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" src="https://play.libsyn.com/embed/episode/id/25153776/height/192/theme/modern/size/large/thumbnail/yes/custom-color/59a3d4/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" title="Embed Player" webkitallowfullscreen="true" width="100%"></iframe>
+                                <h3>Entrepreneurial Leadership with Joel Peterson</h3>
+                                <iframe allowfullscreen="" height="90" mozallowfullscreen="" msallowfullscreen="" oallowfullscreen="" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/14273342/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/59a3d4/" webkitallowfullscreen="" width="100%"></iframe>
                                 <div>
                                     <p>
-                                        In this episode, hear Christina Maslach explain the causes of burnout as described in her new book, <i>The Burnout Challenge.</i> She talks about how to recognize the signs of employee burnout and how to combat the issue to promote increased productivity and health.
+                                    In this episode you’ll hear Joel Peterson, chairman of JetBlue Airways, discuss the difference between an entrepreneur and an entrepreneurial leader. In his latest book, Entrepreneurial Leadership: The Art of Launching New Ventures, Inspiring Others, and Running Stuff, Peterson explains that leaders who want to make a lasting impact must learn to launch new initiatives, inspire others, and champion innovative approaches. In short, these leaders require a new set of skills.
                                     </p>
                                     <p>
-                                    For more information about Christina Maslach, visit <a target="_blank" href='https://www.theburnoutchallenge.com/'>www.theburnoutchallenge.com</a>
+                                    For more information on Joel Peterson, go to <a target="_blank" href='https://www.joelcpeterson.com/'>www.joelcpeterson.com.</a>
                                     </p>
                                 </div>
                                 </div>

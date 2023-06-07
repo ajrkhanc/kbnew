@@ -5,7 +5,7 @@ export default function PodCastinner() {
     return (
         <>
         <Head>
-        <title>Podcast - Beating Burnout with Christina Maslach</title>
+        <title>Podcast - The Job You Were Born For with Eileen Hahn</title>
         <meta name="description" content="Hear Christina Maslach talk about how to recognize the signs of employee burnout and how to combat the issue to promote increased productivity and health."/>
         <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -18,14 +18,14 @@ export default function PodCastinner() {
                         <div className="row row-eq-height eventsandworkshopbox">
                             <div className="col-sm-8">
                                 <div className="podcastd">
-                                <h3>Beating Burnout with Christina Maslach</h3>
-                                <iframe allowfullscreen="" height="192" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" src="https://play.libsyn.com/embed/episode/id/25153776/height/192/theme/modern/size/large/thumbnail/yes/custom-color/59a3d4/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" title="Embed Player" webkitallowfullscreen="true" width="100%"></iframe>
+                                <h3>The Job You Were Born For with Eileen Hahn</h3>
+                                <iframe allowfullscreen="" height="192" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" src="//play.libsyn.com/embed/episode/id/23552714/height/192/theme/modern/size/large/thumbnail/yes/custom-color/59a3d4/time-start/00:00:00/playlist-height/200/direction/backward" title="Embed Player" webkitallowfullscreen="true" width="100%"></iframe>
                                 <div>
                                     <p>
-                                        In this episode, hear Christina Maslach explain the causes of burnout as described in her new book, <i>The Burnout Challenge.</i> She talks about how to recognize the signs of employee burnout and how to combat the issue to promote increased productivity and health.
+                                    In this episode, Eileen Hahn shares tips from her new book, The Job You Were Born For, which presents a revolutionary approach to aligning your work with your life’s purpose. She provides the method for learning what you were born to do while loving every moment of it and making a positive impact in the world.
                                     </p>
                                     <p>
-                                    For more information about Christina Maslach, visit <a target="_blank" href='https://www.theburnoutchallenge.com/'>www.theburnoutchallenge.com</a>
+                                    For more information, visit <a target="_blank" href='https://www.eileenbhahn.com/'>www.eileenbhahn.com</a>
                                     </p>
                                 </div>
                                 </div>

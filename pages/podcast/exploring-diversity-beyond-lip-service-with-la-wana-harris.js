@@ -5,7 +5,7 @@ export default function PodCastinner() {
     return (
         <>
         <Head>
-        <title>Podcast - Beating Burnout with Christina Maslach</title>
+        <title>Podcast - Exploring Diversity Beyond Lip Service with La’Wana Harris</title>
         <meta name="description" content="Hear Christina Maslach talk about how to recognize the signs of employee burnout and how to combat the issue to promote increased productivity and health."/>
         <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -18,14 +18,14 @@ export default function PodCastinner() {
                         <div className="row row-eq-height eventsandworkshopbox">
                             <div className="col-sm-8">
                                 <div className="podcastd">
-                                <h3>Beating Burnout with Christina Maslach</h3>
-                                <iframe allowfullscreen="" height="192" mozallowfullscreen="true" msallowfullscreen="true" oallowfullscreen="true" scrolling="no" src="https://play.libsyn.com/embed/episode/id/25153776/height/192/theme/modern/size/large/thumbnail/yes/custom-color/59a3d4/time-start/00:00:00/playlist-height/200/direction/backward/download/yes" title="Embed Player" webkitallowfullscreen="true" width="100%"></iframe>
+                                <h3>Exploring Diversity Beyond Lip Service with La’Wana Harris</h3>
+                                <iframe allowfullscreen="" height="90" mozallowfullscreen="" msallowfullscreen="" oallowfullscreen="" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/15032291/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/59a3d4/" webkitallowfullscreen="" width="100%"></iframe>
                                 <div>
                                     <p>
-                                        In this episode, hear Christina Maslach explain the causes of burnout as described in her new book, <i>The Burnout Challenge.</i> She talks about how to recognize the signs of employee burnout and how to combat the issue to promote increased productivity and health.
+                                    In this compelling episode, you’ll hear La’Wana Harris share timely thoughts about her new book, Diversity Beyond Lip Service. She explains how she works with leaders to help them become aware of their own biases and how to make conscious choices that mitigate bias in order to embrace diversity. Harris defines diversity as the full spectrum of human difference including race, gender, and sexual orientation. But she also points out other differentiators such as cultural elements, position or role status, privilege, and physical abilities that limit inclusion.
                                     </p>
                                     <p>
-                                    For more information about Christina Maslach, visit <a target="_blank" href='https://www.theburnoutchallenge.com/'>www.theburnoutchallenge.com</a>
+                                    For more information on La’Wana Harris, go to <a target="_blank" href='https://www.lawanaharris.com/'>lawanaharris.com</a> or find her on <a target="_blank" href='https://www.linkedin.com/in/lawanaharris/'>LinkedIn.</a>
                                     </p>
                                 </div>
                                 </div>

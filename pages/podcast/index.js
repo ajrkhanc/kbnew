@@ -42,6 +42,126 @@ export default function PodCast() {
                                 
                                 <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/podcast/a-minute-to-think-with-juliet-funt.jpg" alt="Images" />
+                                            <h3>A Minute to Think with <br></br>Juliet Funt</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/a-minute-to-think-with-juliet-funt"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/leading-with-gratitude-with-adrian-gostick.jpg" alt="Images" />
+                                            <h3>Leading with Gratitude with Adrian Gostick</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/leading-with-gratitude-with-adrian-gostick"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/entrepreneurial-leadership-with-joel-peterson.jpg" alt="Images" />
+                                            <h3>Entrepreneurial Leadership with Joel Peterson</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/entrepreneurial-leadership-with-joel-peterson"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/exploring-diversity-beyond-lip-service-with-la-wana-harris.jpg" alt="Images" />
+                                            <h3>Exploring Diversity Beyond Lip Service with La’Wana Harris</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/exploring-diversity-beyond-lip-service-with-la-wana-harris"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/how-to-lead-without-authority-with-keith-ferrazzi.jpg" alt="Images" />
+                                            <h3>How to Lead Without Authority with Keith Ferrazzi</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/how-to-lead-without-authority-with-keith-ferrazzi"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/winning-the-talent-shift-with-berta-aldrich.jpg" alt="Images" />
+                                            <h3>Winning the Talent Shift with Berta Aldrich</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/winning-the-talent-shift-with-berta-aldrich"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/creating-your-leadership-point-of-view-with-pat-zigarmi.jpg" alt="Images" />
+                                            <h3>Creating Your Leadership Point of View with Pat Zigarmi</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/creating-your-leadership-point-of-view-with-pat-zigarmi"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/creating-psychological-safety-with-randy-conley.jpg" alt="Images" />
+                                            <h3>Creating Psychological Safety with Randy Conley</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/creating-psychological-safety-with-randy-conley"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/the-job-you-were-born-for-with-eileen-hahn.jpg" alt="Images" />
+                                            <h3>The Job You Were Born For with Eileen Hahn</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/the-job-you-were-born-for-with-eileen-hahn"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/refine-your-employee-culture-with-stan-slap.jpg" alt="Images" />
+                                            <h3>Refine Your Employee Culture with Stan Slap</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/refine-your-employee-culture-with-stan-slap"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/podcast/leverage-change-with-jake-jacobs.jpg" alt="Images" />
                                             <h3>Leverage Change with Jake Jacobs</h3>
                                             <div className='row text-center eventsbottomarea2'>
