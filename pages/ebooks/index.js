@@ -33,6 +33,21 @@ export default function Elearning() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/are-you-a-directive-or-supportive-leader.jpg" alt="Images" />
+                                            <h3>Are You a Directive or Supportive Leader?</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/ebooks/are-you-a-directive-or-a-supportive-leader">
+                                                        <a className="default-btn-two">Read eBook<i className="bx bx-right-arrow-alt"></i></a>
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/4-critical-focus-areas-for-building-a-high-performance-team.jpg" alt="Images" />
                                             <h3>4 Critical Focus Areas for Building a High Performance Team</h3>
                                             <div className='row text-center eventsbottomarea2'>
