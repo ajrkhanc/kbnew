@@ -19,7 +19,7 @@ export default function PodCastinner() {
                             <div className="col-sm-8">
                                 <div className="podcastd">
                                 <h3>Building High Performance Habits with Brendon Burchard</h3>
-                                <iframe allowfullscreen="" height="90" mozallowfullscreen="" msallowfullscreen="" oallowfullscreen="" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/20984681/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/59a3d4/" title="Libsyn Player" webkitallowfullscreen="" width="100%"></iframe>
+                                <iframe allowfullscreen="" height="90" mozallowfullscreen="" msallowfullscreen="" oallowfullscreen="" scrolling="no" src="//html5-player.libsyn.com/embed/episode/id/16235600/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/59a3d4/" webkitallowfullscreen="" width="100%"></iframe>
                                 <div>
                                     <p>
                                     In this week’s podcast, you’ll hear Brendon Burchard explain why and how some people perform at a higher level than others. In his book, <a target="_blank" href="https://www.amazon.com/High-Performance-Habits-Extraordinary-People/dp/1401952852/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1559329710&sr=8-1-spons"><i>High Performance Habits</i></a>, he identifies six habits successful people practice to sustain long-term achievement in their personal and professional lives.
