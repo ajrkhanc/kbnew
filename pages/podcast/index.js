@@ -39,8 +39,20 @@ export default function PodCast() {
                         <div className="col-lg-12">
                             <div className="what-did-left-content">
                                 <div className="row row-eq-height eventsandworkshopbox">
-                                
-                                <div className="col-sm-4">
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/building-high-performance-habits-with-brendon-burchard.jpg" alt="Images" />
+                                            <h3>Building High Performance Habits with Brendon Burchard</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/building-high-performance-habits-with-brendon-burchard"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
                                         <div className="choose-card">
                                             <img src="/assets/img/podcast/a-minute-to-think-with-juliet-funt.jpg" alt="Images" />
                                             <h3>A Minute to Think with <br></br>Juliet Funt</h3>
