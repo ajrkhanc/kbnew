@@ -42,6 +42,18 @@ export default function PodCast() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/podcast/simple-truths-of-leadership-with-ken-blanchard-and-randy-conley.jpg" alt="Images" />
+                                            <h3>Simple Truths of Leadership with Ken Blanchard and Randy Conley</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/simple-truths-of-leadership-with-ken-blanchard-and-randy-conley"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/podcast/building-high-performance-habits-with-brendon-burchard.jpg" alt="Images" />
                                             <h3>Building High Performance Habits with Brendon Burchard</h3>
                                             <div className='row text-center eventsbottomarea2'>
