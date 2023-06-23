@@ -25,7 +25,7 @@ export default function HybridWorkplaces() {
 
                document.getElementById("showlabel").style.display = "block";
                window.setTimeout(function () {
-                   window.location.href = "/thank-you-lp"
+                   window.location.href = "/lp/self-leadership-workshop-lp-thank-you"
                }, 3000);
 
             } else {
@@ -50,6 +50,18 @@ export default function HybridWorkplaces() {
         <Head>
             <title>Four Coaching Essential Skills at Hybrid Workplace</title>
             <meta name="description" content="As a leader, every interaction is an opportunity to strengthen and develop your people. Coaching is not a checklist task, it's a mindset, great coaches don’t see coaching as a “to-do.”" />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=AW-370688250"></script>
+            <script
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-370688250');
+          `,
+            }}
+          />
          </Head>
 
         <div id="register-today" className="inner-banner online-learning-headbg">
