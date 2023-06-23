@@ -108,13 +108,13 @@ export default function VirtualPublicWorkshop() {
                                  <div className="form-group">
                                     <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                                        <option value="">Pick up any Slot*</option>                                       
-                                       <option value="Self Leadership - Virtual, June 16th, 2023">Self Leadership - Virtual, June 16th, 2023</option>
                                        <option value="Building Trust - Virtual, June 30th, 2023">Building Trust - Virtual, June 30th, 2023</option>
                                        <option value="The SLII Experience™ - Virtual July 4th to 5th, 2023">The SLII Experience™ - Virtual July 4th to 5th, 2023</option>
                                        <option value="Self Leadership - Virtual July 13th, 2023">Self Leadership - Virtual July 13th, 2023</option>
                                        <option value="Team Leadership - Virtual July 26th, 2023">Team Leadership - Virtual July 26th, 2023</option>
                                        <option value="The SLII Experience™, Virtual - August 7th to 8th, 2023">The SLII Experience™, Virtual - August 7th to 8th, 2023</option>
                                        <option value="The SLII Experience™, T4T - August 9th to 10th, 2023">The SLII Experience™, T4T - August 9th to 10th, 2023</option>
+                                       <option value="Conversational Capacity - Virtual - August 23rd, 2023">Conversational Capacity - Virtual - August 23rd, 2023</option>
                                     </select>
                                  </div>
                               </div>
@@ -161,18 +161,7 @@ export default function VirtualPublicWorkshop() {
                      <div className="what-did-left-content">
                         <div className="row row-eq-height eventsandworkshopbox">
 
-                           <div className="col-sm-4">
-                              <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3 className="ptt10 mbb-0">Self Leadership - Virtual</h3>
-                                 <p> June 16th, 2023</p>
-                                 <div className='row eventsbottomarea2 text-center'>
-                                    <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                         
                            <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
@@ -243,6 +232,19 @@ export default function VirtualPublicWorkshop() {
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
                                  <h3>The SLII Experience™ - T4T</h3>
                                  <p>August 9th to 10th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Conversational Capacity - Virtual</h3>
+                                 <p>August 23rd, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
                                        <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
