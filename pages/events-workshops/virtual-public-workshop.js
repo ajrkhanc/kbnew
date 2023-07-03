@@ -108,7 +108,6 @@ export default function VirtualPublicWorkshop() {
                                  <div className="form-group">
                                     <select name="leadsquared_mx_Showed_Interest_in" className="form-control" required>
                                        <option value="">Pick up any Slot*</option>                                       
-                                       <option value="Building Trust - Virtual, June 30th, 2023">Building Trust - Virtual, June 30th, 2023</option>
                                        <option value="The SLII Experience™ - Virtual July 4th to 5th, 2023">The SLII Experience™ - Virtual July 4th to 5th, 2023</option>
                                        <option value="Self Leadership - Virtual July 13th, 2023">Self Leadership - Virtual July 13th, 2023</option>
                                        <option value="Team Leadership - Virtual July 26th, 2023">Team Leadership - Virtual July 26th, 2023</option>
@@ -160,20 +159,6 @@ export default function VirtualPublicWorkshop() {
                      <p className='text-center pb-25'>Take advantage of our virtual trainings.</p> */}
                      <div className="what-did-left-content">
                         <div className="row row-eq-height eventsandworkshopbox">
-
-                         
-                           <div className="col-sm-4">
-                              <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3>Building Trust - Virtual</h3>
-                                 <p>June 30th, 2023</p>
-                                 <div className='row eventsbottomarea2 text-center'>
-                                    <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
 
                            <div className="col-sm-4">
                               <div className="choose-card">
