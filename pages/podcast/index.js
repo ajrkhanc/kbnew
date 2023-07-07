@@ -42,6 +42,30 @@ export default function PodCast() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/podcast/listening-2by2-with-tom-kaden-and-michael-gingerich.jpg" alt="Images" />
+                                            <h3>Listening 2by2 with Tom Kaden and Michael Gingerich</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/listening-2by2-with-tom-kaden-and-michael-gingerich"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
+                                            <img src="/assets/img/podcast/becoming-a-self-evolved-leader-with-dave-mckeown.jpg" alt="Images" />
+                                            <h3>Becoming a Self-Evolved Leader with Dave McKeown</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/becoming-a-self-evolved-leader-with-dave-mckeown"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/podcast/simple-truths-of-leadership-with-ken-blanchard-and-randy-conley.jpg" alt="Images" />
                                             <h3>Simple Truths of Leadership with Ken Blanchard and Randy Conley</h3>
                                             <div className='row text-center eventsbottomarea2'>
