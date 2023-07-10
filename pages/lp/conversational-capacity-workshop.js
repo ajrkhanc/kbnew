@@ -100,7 +100,7 @@ export default function ConversationalCapacityWebinar() {
                            <div className="form-group">
                               <label>Program Name*</label>                              
                               <select className="form-control" name="interest_in" required>
-                                 <option value="Conversational Capacity Workshop: 10th February, 2023">Conversational Capacity Workshop: 10th February, 2023</option>
+                                 <option value="Conversational Capacity Workshop: 23rd August, 2023">Conversational Capacity Workshop: 23rd August, 2023</option>
                               </select>
                               <div className="help-block with-errors"></div>
                            </div>
