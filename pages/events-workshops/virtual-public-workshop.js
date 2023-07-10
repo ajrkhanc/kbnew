@@ -114,6 +114,17 @@ export default function VirtualPublicWorkshop() {
                                        <option value="The SLII Experience™, Virtual - August 7th to 8th, 2023">The SLII Experience™, Virtual - August 7th to 8th, 2023</option>
                                        <option value="The SLII Experience™, T4T - August 9th to 10th, 2023">The SLII Experience™, T4T - August 9th to 10th, 2023</option>
                                        <option value="Conversational Capacity - Virtual - August 23rd, 2023">Conversational Capacity - Virtual - August 23rd, 2023</option>
+                                       <option value="Blanchard Management Essentials - Virtual - September 13th, 2023">Blanchard Management Essentials - Virtual - September 13th, 2023</option>
+                                       <option value="Coaching Essentials - Virtual - September 21st, 2023">Coaching Essentials - Virtual - September 21st, 2023</option>
+                                       <option value="The SLII Experience™ - September 25th, 2023">The SLII Experience™ - September 25th, 2023</option>
+                                       <option value="The SLII Experience™ T4T F2F - September 27th, 2023">The SLII Experience™ T4T F2F - September 27th, 2023</option>
+                                       <option value="Self Leadership - Virtual - October 11th, 2023">Self Leadership - Virtual - October 11th, 2023</option>
+                                       <option value="Team Leadership - Virtual - October 19th, 2023">Team Leadership - Virtual - October 19th, 2023</option>
+                                       <option value="Building Trust - Virtual - November 2nd, 2023">Building Trust - Virtual - November 2nd, 2023</option>
+                                       <option value="The SLII Experience™ - November 20th, 2023">The SLII Experience™ - November 20th, 2023</option>
+                                       <option value="The SLII Experience™ T4T F2F - November 22nd, 2023">The SLII Experience™ T4T F2F - November 22nd, 2023</option>
+                                       <option value="Conversational Capacity - Virtual - December 13th, 2023">Conversational Capacity - Virtual - December 13th, 2023</option>
+                                       <option value="Blanchard Management Essentials - Virtual - December 20th, 2023">Blanchard Management Essentials - Virtual - December 20th, 2023</option>
                                     </select>
                                  </div>
                               </div>
