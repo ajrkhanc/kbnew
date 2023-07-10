@@ -238,43 +238,14 @@ export default function VirtualPublicWorkshop() {
                               </div>
                            </div>
 
-                           {/* <div className="col-sm-4">
+                           <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3>Building Trust - Virtual</h3>
-                                 <p>February 22nd, 2023</p>
+                                 <h3>Blanchard Management Essentials - Virtual</h3>
+                                 <p>September 13th, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div> */}
-                           
-
-                           
-
-                           {/* <div className="col-sm-4">
-                              <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3 className="ptt10 mbb-0">The SLII Experience™ - Face to Face</h3>
-                                 <p> March 27th - 28th, 2023</p>
-                                 <div className='row eventsbottomarea2 text-center'>
-                                    <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div> */}
-
-                           {/* <div className="col-sm-4">
-                              <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3 className="ptt10 mbb-0">Self Leadership - Virtual</h3>
-                                 <p> April 11th, 2023</p>
-                                 <div className='row eventsbottomarea2 text-center'>
-                                    <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
                                     </div>
                                  </div>
                               </div>
@@ -283,30 +254,132 @@ export default function VirtualPublicWorkshop() {
                            <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3 className="ptt10 mbb-0">Blanchard Management Essentials<sup>®</sup></h3>
-                                 <p>April 21, 2023,</p>
+                                 <h3>Coaching Essentials - Virtual</h3>
+                                 <p>September 21st, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
                                     </div>
                                  </div>
                               </div>
-                           </div> */}
+                           </div>
 
-                           
-
-                           {/* <div className="col-sm-4">
+                           <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
                                  <h3>The SLII Experience™</h3>
-                                 <p>March 27th, 2023</p>
+                                 <p>September 25th, 2023</p>
                                  <div className='row eventsbottomarea2 text-center'>
                                     <div className='col-sm-12'>
-                                       <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
                                     </div>
                                  </div>
                               </div>
-                           </div> */}
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>The SLII Experience™ T4T F2F</h3>
+                                 <p>September 27th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Self Leadership - Virtual</h3>
+                                 <p>October 11th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Team Leadership - Virtual</h3>
+                                 <p>October 19th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Building Trust - Virtual</h3>
+                                 <p>November 2nd, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>The SLII Experience™</h3>
+                                 <p>November 20th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>The SLII Experience™ T4T F2F</h3>
+                                 <p>November 22nd, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Conversational Capacity - Virtual</h3>
+                                 <p>December 13th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+
+                           <div className="col-sm-4">
+                              <div className="choose-card">
+                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
+                                 <h3>Blanchard Management Essentials - Virtual</h3>
+                                 <p>December 20th, 2023</p>
+                                 <div className='row eventsbottomarea2 text-center'>
+                                    <div className='col-sm-12'>
+                                    <a href="#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
 
 
 
