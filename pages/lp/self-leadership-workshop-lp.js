@@ -112,8 +112,7 @@ export default function HybridWorkplaces() {
                         <div className="col-lg-6">
                            <div className="form-group">
                               <label>Program Name*</label>                              
-                              <select className="form-control" name="interest_in" required>
-                                 <option value="Self leadership Workshop: june 16th, 2023">Self leadership Workshop: june 16th, 2023</option>
+                              <select className="form-control" name="interest_in" required>                                 
                                  <option value="Self leadership Workshop: July 13th, 2023">Self leadership Workshop: July 13th, 2023</option>
                               </select>
                               <div className="help-block with-errors"></div>
