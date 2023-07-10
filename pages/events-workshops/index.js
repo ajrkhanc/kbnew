@@ -69,7 +69,7 @@ export default function EventsAndWorkshop() {
 
                         
 
-                           <div className="col-sm-4">
+                           {/* <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
                                  <h3>The SLII Experience™ - Virtual</h3>
@@ -80,7 +80,7 @@ export default function EventsAndWorkshop() {
                                     </div>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
 
                            <div className="col-sm-4">
                               <div className="choose-card">
