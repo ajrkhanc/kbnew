@@ -201,7 +201,7 @@ if (t < 0) {
                         </div>
                         <div className="col-lg-12">
                            <div className="form-group">
-                              <input type="text" name="designation" id="designation" className="form-control" data-error="Please Enter Designation" placeholder="Designation" pattern="[a-zA-Z -]*$" title="Only alphabets are allowed" required/>
+                              <input type="text" name="designation" id="designation" className="form-control" data-error="Please Enter Designation" placeholder="Designation*" pattern="[a-zA-Z -]*$" title="Only alphabets are allowed" required/>
                               <div className="help-block with-errors"></div>
                            </div>
                         </div>                                               

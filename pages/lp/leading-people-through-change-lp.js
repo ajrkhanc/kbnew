@@ -92,7 +92,7 @@ export default function HybridWorkplaces() {
                      </div>
                      <div className="col-lg-12">
                         <div className="form-group">
-                           <input type="text" name="designation" id="designation" className="form-control" placeholder="Designation" />
+                           <input type="text" name="designation" id="designation" className="form-control" placeholder="Designation*" required/>
                            <div className="help-block with-errors"></div>
                         </div>
                      </div>
