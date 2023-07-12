@@ -33,6 +33,21 @@ export default function Elearning() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/situational-approach-to-leadership.jpg" alt="Images" />
+                                            <h3>SLII. Why a Situational Approach to Leadership Makes All the Difference</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/ebooks/situational-approach-to-leadership">
+                                                        <a className="default-btn-two">Read eBook<i className="bx bx-right-arrow-alt"></i></a>
+                                                    </Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/are-you-a-directive-or-supportive-leader.jpg" alt="Images" />
                                             <h3>Are You a Directive or Supportive Leader?</h3>
                                             <div className='row text-center eventsbottomarea2'>
