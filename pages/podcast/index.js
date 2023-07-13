@@ -42,6 +42,20 @@ export default function PodCast() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/podcast/real-time-leadership-with-carol-kauffman.jpg" alt="Images" />
+                                            <h3>Real-Time Leadership with Carol Kauffman</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/real-time-leadership-with-carol-kauffman"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/podcast/listening-2by2-with-tom-kaden-and-michael-gingerich.jpg" alt="Images" />
                                             <h3>Listening 2by2 with Tom Kaden and Michael Gingerich</h3>
                                             <div className='row text-center eventsbottomarea2'>
