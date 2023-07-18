@@ -82,18 +82,7 @@ export default function EventsAndWorkshop() {
                               </div>
                            </div> */}
 
-                           <div className="col-sm-4">
-                              <div className="choose-card">
-                                 <img src="/assets/img/workshopformain1.jpg" alt="Images" />
-                                 <h3 className="ptt10 mbb-0">Self Leadership - Virtual</h3>
-                                 <p> July 13th, 2023</p>
-                                 <div className='row eventsbottomarea2 text-center'>
-                                    <div className='col-sm-12'>
-                                       <a href="/events-workshops/virtual-public-workshop#REQUEST" className="default-btn-two">REQUEST INFO<i className="bx bx-right-arrow-alt"></i></a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
+                      
 
                            <div className="col-sm-4">
                               <div className="choose-card">
