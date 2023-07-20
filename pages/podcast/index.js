@@ -42,6 +42,19 @@ export default function PodCast() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/podcast/experiential-intelligence-with-soren-kaplan.jpg" alt="Images" />
+                                            <h3>Experiential Intelligence with Soren Kaplan</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/experiential-intelligence-with-soren-kaplan"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/podcast/real-time-leadership-with-carol-kauffman.jpg" alt="Images" />
                                             <h3>Real-Time Leadership with Carol Kauffman</h3>
                                             <div className='row text-center eventsbottomarea2'>
@@ -51,8 +64,6 @@ export default function PodCast() {
                                             </div>
                                         </div>
                                     </div>
-
-                                    
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
