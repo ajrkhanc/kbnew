@@ -84,7 +84,7 @@ export default function EventsAndWorkshop() {
 
                       
 
-                           <div className="col-sm-4">
+                           {/* <div className="col-sm-4">
                               <div className="choose-card">
                                  <img src="/assets/img/workshopformain1.jpg" alt="Images" />
                                  <h3 className="ptt10 mbb-0">Team Leadership - Virtual</h3>
@@ -95,7 +95,7 @@ export default function EventsAndWorkshop() {
                                     </div>
                                  </div>
                               </div>
-                           </div>
+                           </div> */}
 
                            <div className="col-sm-4">
                               <div className="choose-card">
