@@ -42,6 +42,19 @@ export default function PodCast() {
 
                                     <div className="col-sm-4">
                                         <div className="choose-card">
+                                            <img src="/assets/img/podcast/motivating-your-team-with-catherine-stothart.jpg" alt="Images" />
+                                            <h3>Motivating Your Team with Catherine Stothart</h3>
+                                            <div className='row text-center eventsbottomarea2'>
+                                                <div className='col-sm-12'>
+                                                    <Link href="/podcast/motivating-your-team-with-catherine-stothart"><a className="default-btn-two">LISTEN TO THE PODCAST<i className="bx bx-right-arrow-alt"></i></a></Link>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div className="col-sm-4">
+                                        <div className="choose-card">
                                             <img src="/assets/img/podcast/competing-in-the-new-world-of-work-keith-ferrazzi.jpg" alt="Images" />
                                             <h3>Competing in the New World of Work with Keith Ferrazzi</h3>
                                             <div className='row text-center eventsbottomarea2'>
