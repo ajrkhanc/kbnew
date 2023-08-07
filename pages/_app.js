@@ -60,7 +60,7 @@ else if (router.pathname.startsWith('/assessments')) {
 
 else {
   const router = useRouter();
-  const canonicalUrl = (`https://byldgroup.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
+  const canonicalUrl = (`https://byldgroup.com/blanchardindia` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
   return (
     <Layout>  
 
