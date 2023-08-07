@@ -5,6 +5,7 @@ function TheSLIIExperience() {
     return (
         <>
         <Head>
+        <link rel="canonical" href="https://byldgroup.com/blanchardindia/our-content/programs/slii" />
         <title>The SLII Experience™ Training - Blanchard International</title>
         <meta name="description" content="Train your managers with world's most popular leadership model - SLII® . It helps them react to certain situations. After attending the training, managers can use the proper leadership style to react on certain situations."/>
         <link rel="icon" href="/favicon.ico" />
