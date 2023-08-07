@@ -24,5 +24,11 @@ module.exports = {
       permanent: true,
     },
 
+    {
+      source: '/podcast/:path*',
+      destination: 'https://byldgroup.com/blanchardindia/podcast/:path*',
+      permanent: false
+    }
+
   ]
 }
