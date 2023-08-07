@@ -3,6 +3,9 @@ import GenericLP from '../components/GenericLP/Layout'
 import Assesmments from '../components/Assesmment/Layout'
 import '../styles/globals.css'
 
+import { useRouter } from "next/router";
+import Head from 'next/head'
+
 function MyApp({ Component, pageProps, router }) {
 
   if (router.pathname.startsWith('/lp/blanchard-generic-landing-page')) {
@@ -56,8 +59,14 @@ else if (router.pathname.startsWith('/assessments')) {
 }
 
 else {
+  const router = useRouter();
+  const canonicalUrl = (`https://byldgroup.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
   return (
-    <Layout>    
+    <Layout>  
+
+      <Head>
+        <link rel="canonical" href={canonicalUrl} />
+        </Head>  
     <Component {...pageProps} />
     </Layout>
   )
