@@ -3,7 +3,7 @@ module.exports = {
   redirects: async () => [
     {
       source: '/:path*',
-      destination: 'https://byldgroup.com/blanchardindia*',
+      destination: 'https://byldgroup.com/blanchardindia',
       permanent: true
     },
 
