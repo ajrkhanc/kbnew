@@ -4,7 +4,7 @@ module.exports = {
     {
       source: '/:path*',
       has: [{ type: 'host', value: 'www.blanchardinternational.co.in' }],
-      destination: 'https://blanchardinternational.co.in/:path*',
+      destination: 'https://byldgroup.com/blanchardindia*',
       permanent: true
     },
 
@@ -218,15 +218,7 @@ module.exports = {
       permanent: true,
     },
 
-    
-
-    {
-      source: 'https://blanchardinternational.co.in',
-      destination: 'https://byldgroup.com/blanchardindia',
-      permanent: true,
-    },
-
-   
+  
 
   ]
 }
