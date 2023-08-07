@@ -226,11 +226,7 @@ module.exports = {
       permanent: true,
     },
 
-    {
-      source: 'https://www.blanchardinternational.co.in/',
-      destination: 'https://byldgroup.com/blanchardindia',
-      permanent: true,
-    },
+   
 
   ]
 }
