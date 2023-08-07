@@ -220,17 +220,17 @@ module.exports = {
 
     
 
-    // {
-    //   source: '/aboutkkk',
-    //   destination: 'https://byldgroup.com/blanchardindia/abouthhhh',
-    //   permanent: true,
-    // },
+    {
+      source: 'https://blanchardinternational.co.in',
+      destination: 'https://byldgroup.com/blanchardindia',
+      permanent: true,
+    },
 
-    // {
-    //   source: '/aboutkkk',
-    //   destination: 'https://byldgroup.com/blanchardindia/abouthhhh',
-    //   permanent: true,
-    // },
+    {
+      source: 'https://www.blanchardinternational.co.in/',
+      destination: 'https://byldgroup.com/blanchardindia',
+      permanent: true,
+    },
 
   ]
 }
