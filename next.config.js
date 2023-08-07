@@ -16,7 +16,13 @@ module.exports = {
       source: '/assessments/bme-assessment',
       destination: '/assessments/bme-assessment-m',
       permanent: true,
-    }
+    },
+
+    {
+      source: '/blog/:slug',
+      destination: 'https://byldgroup.com/blanchardindia/blog/:slug', // Matched parameters can be used in the destination
+      permanent: true,
+    },
 
   ]
 }
