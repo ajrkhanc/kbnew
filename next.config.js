@@ -3,7 +3,7 @@ module.exports = {
   redirects: async () => [
     {
       source: '/:path*',
-      has: [{ type: 'host', value: 'www.blanchardinternational.co.in' }],
+      has: [{ type: 'host', value: 'https://blanchardinternational.co.in' }],
       destination: 'https://byldgroup.com/blanchardindia*',
       permanent: true
     },
