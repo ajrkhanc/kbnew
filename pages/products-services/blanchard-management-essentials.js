@@ -5,6 +5,7 @@ export default function BlanchardManagementEssentials() {
     return (
         <>
         <Head>
+        <link rel="canonical" href="https://byldgroup.com/blanchardindia/our-content/programs/blanchard-management-essentials" />
         <title>Blanchard Management Essentials | New Managers</title>
         <meta name="description" content="The Blanchard Management Essentials® training can be delivered face-to-face, virtually, or as a combination of face-to-face, virtual, and online learning modalities."/>
         <link rel="icon" href="/favicon.ico" />

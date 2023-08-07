@@ -5,6 +5,7 @@ export default function BuildingTrust() {
     return (
         <>
         <Head>
+        <link rel="canonical" href="https://byldgroup.com/blanchardindia/our-content/programs/building-trust" />
         <title>Building Trust - Blanchard International</title>
         <meta name="description" content="Hone your relationship building skills with Blanchard’s Building Trust program. Influential leadership is all about building trust and relationships. Great leaders are more adaptive to external changes and lead their teams with effectiveness."/>
         <link rel="icon" href="/favicon.ico" />

@@ -5,6 +5,7 @@ export default function CoachingEssentials() {
     return (
         <>
         <Head>
+        <link rel="canonical" href="https://byldgroup.com/blanchardindia/our-content/programs/coaching-essentials" />
         <title>Coaching Skills for Managers | Coaching Essentials - Blanchard India</title>
         <meta name="description" content="Coaching Skills. Leadership is more about coaching and less about command-and-control. Learn the requirements of coaching skills for managers from the top-notch leaders of the industry."/>
         <link rel="icon" href="/favicon.ico" />

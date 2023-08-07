@@ -5,6 +5,7 @@ export default function CoachingServices() {
     return (
         <>
         <Head>
+        <link rel="canonical" href="https://blanchardinternational.co.in/products-services/coaching-services" />
         <title>Coaching Services - Blanchard International</title>
         <meta name="description" content="ONE-ON-ONE COACHING TO SUPPORT YOUR LEADERS HOW CAN COACHING HELP MANAGERS? Managers can do great things if they are given the proper advice and support at the right time. This is the reason why some of the best companies avail the services of professional coaches to benefit and support their managers to perform some of"/>
         <link rel="icon" href="/favicon.ico" />

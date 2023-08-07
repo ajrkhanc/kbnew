@@ -5,6 +5,7 @@ export default function ConversationalCapacity() {
     return (
         <>
         <Head>
+        <link rel="canonical" href="https://byldgroup.com/blanchardindia/our-content/programs/conversational-capacity" />
         <title>Conversational Capacity | Blanchard Research and Training India</title>
         <meta name="description" content="World-class leadership training programs by the pioneers of leadership training and consulting in India. Self-leadership training program helps you develop and hone state-of-the-art leadership skills required to thrive in today’s challenging environment. Get an edge over the peers."/>
         <link rel="icon" href="/favicon.ico" />
