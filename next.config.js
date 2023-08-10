@@ -1,11 +1,11 @@
 module.exports = {
   reactStrictMode: true,
   redirects: async () => [
-    // {
-    //   source: '/',
-    //   destination: 'https://byldgroup.com/blanchardindia',
-    //   permanent: true
-    // },
+    {
+      source: '/',
+      destination: 'https://byldgroup.com/blanchardindia',
+      permanent: true
+    },
 
     {
       source: '/blog',
@@ -151,11 +151,11 @@ module.exports = {
       permanent: true,
     },
 
-    // {
-    //   source: '/products-services/slii-experience',
-    //   destination: 'https://byldgroup.com/blanchardindia/what-we-do/leadership-development/leadership-development-programs',
-    //   permanent: true,
-    // },
+    {
+      source: '/products-services/slii-experience',
+      destination: 'https://byldgroup.com/blanchardindia/what-we-do/leadership-development/leadership-development-programs',
+      permanent: true,
+    },
 
     {
       source: '/products-services/blanchard-management-essentials',
@@ -163,11 +163,11 @@ module.exports = {
       permanent: true,
     },
 
-    // {
-    //   source: '/products-services/self-leadership',
-    //   destination: 'https://byldgroup.com/blanchardindia/our-content/programs/self-leadership',
-    //   permanent: true,
-    // },
+    {
+      source: '/products-services/self-leadership',
+      destination: 'https://byldgroup.com/blanchardindia/our-content/programs/self-leadership',
+      permanent: true,
+    },
 
     {
       source: '/products-services/coaching-essentials',
@@ -175,11 +175,11 @@ module.exports = {
       permanent: true,
     },
 
-    // {
-    //   source: '/products-services/building-trust',
-    //   destination: 'https://byldgroup.com/blanchardindia/our-content/programs/building-trust',
-    //   permanent: true,
-    // },
+    {
+      source: '/products-services/building-trust',
+      destination: 'https://byldgroup.com/blanchardindia/our-content/programs/building-trust',
+      permanent: true,
+    },
 
     {
       source: '/products-services/leading-people-through-change',
