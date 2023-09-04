@@ -14,6 +14,12 @@ module.exports = {
     },
 
     {
+      source: '/blog/',
+      destination: 'https://byldgroup.com/blanchardindia/blog/',
+      permanent: true,
+    },
+
+    {
       source: '/blog/:slug',
       destination: 'https://byldgroup.com/blanchardindia/blog/:slug', // Matched parameters can be used in the destination
       permanent: true,
