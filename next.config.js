@@ -14,8 +14,8 @@ module.exports = {
     },
 
     {
-      source: '/blog/',
-      destination: 'https://byldgroup.com/blanchardindia/blog/',
+      source: '/blog/category',
+      destination: 'https://byldgroup.com/blanchardindia/blog/category',
       permanent: true,
     },
 
