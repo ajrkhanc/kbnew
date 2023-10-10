@@ -2,8 +2,14 @@ module.exports = {
   reactStrictMode: true,
   redirects: async () => [
     {
-      source: '/:path*',
+      source: '/',
       destination: 'https://byldgroup.com/blanchardindia',
+      permanent: true
+    },
+
+    {
+      source: '/:path*',
+      destination: 'https://byldgroup.com/kbassets/pdf/:path*',
       permanent: false
     },
 
