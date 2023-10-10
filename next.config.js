@@ -7,11 +7,7 @@ module.exports = {
       permanent: true
     },
 
-    {
-      source: '/:path*',
-      destination: 'https://byldgroup.com/kbassets/:path*',
-      permanent: false
-    },
+  
 
     {
       source: '/blog',
@@ -227,6 +223,12 @@ module.exports = {
       source: '/products-services/conversational-capacity',
       destination: 'https://byldgroup.com/blanchardindia/our-content/programs/conversational-capacity',
       permanent: true,
+    },
+
+    {
+      source: '/:path*',
+      destination: 'https://byldgroup.com/kbassets/:path*',
+      permanent: false
     },
 
   
