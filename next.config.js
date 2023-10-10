@@ -227,7 +227,7 @@ module.exports = {
 
     {
       source: '/pdf/:path*',
-      destination: 'https://byldgroup.com/kbassets/:path*',
+      destination: 'https://byldgroup.com/kbassets/pdf/:path*',
       permanent: false
     },
 
